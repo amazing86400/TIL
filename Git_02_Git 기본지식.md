@@ -4,7 +4,7 @@
 
 **Git과 Github의 차이점**
 
-- Git은 local에서 버전관리를 하는 프로그램이다.
+- Git은 local에서 버전 관리를 하는 프로그램이다.
 - Github는 그 버전을 공유하는 remote 저장소이다.
 
 
@@ -27,11 +27,11 @@
 
 **status**
 
-- Working Directory와 Staging Area에 있는 *파일의 현재 상태를 알려주는 명령어*
+- Working Directory와 Staging Area에 있는 **파일의 현재 상태를 알려주는 명령어**
 
 - 수시로 확인하기!
 
-  - **Untracked** : Git이 관리하지 않는 파일(한번도 SA에 올라간 적 없는 파일)
+  - **Untracked** : Git이 관리하지 않는 파일(한 번도 SA에 올라간 적 없는 파일)
 
   - **Tracked** : Git이 관리하는 파일
 
@@ -47,7 +47,7 @@
 
 **commit**
 
-- Staging Area에 올라온 파일의 변경 사항을 *하나의 version(commit)으로 저장하는 명령어*
+- Staging Area에 올라온 파일의 변경 사항을 **하나의 version(commit)으로 저장하는 명령어**
 - 각각의 commits은 **SHA-1** 알고리즘에 의해 반환된 고유의 hash 값을 ID로 갖는다.
 
 
@@ -67,6 +67,6 @@
   - --all : 현재 branch를 포함한 모든 branch 내역을 보여준다.
   - --reverse : commits 내역의 순서를 반대로 보여준다.
   - -p : 파일의 변경 내용도 같이 보여준다.
-  - -2 : 원하는 갯수 만큼의 내역을 보여준다.
+  - -2 : 원하는 개수만큼의 내역을 보여준다.
   
   
