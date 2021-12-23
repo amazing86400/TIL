@@ -6,11 +6,7 @@
 
 
 
-*[namjunemy](https://github.com/namjunemy) 님의 Github TIL을 보고 많은 영감을 얻었다.*
-
-
-
-## 작성 규칙
+## Role
 
 - contributions를 초록색으로 채우고자 대충 기록하는 일이 없도록 한다.
 - 학습한 내용을 온전히 내 것으로 만들고자 기록한다.
@@ -19,7 +15,7 @@
 
 
 
-## 분류
+## Part
 
 **Git**
 
