@@ -1,8 +1,8 @@
-## Git 기초
+# Git 기초
 
 
 
-**Git과 Github의 차이점**
+#### Git과 Github의 차이점
 
 - Git은 local에서 버전 관리를 하는 프로그램이다.
 - Github는 그 버전을 공유하는 remote 저장소이다.
@@ -13,7 +13,7 @@
 
 
 
-**Git의 파일구조**
+#### Git의 파일구조
 
 - Working Directory, Staging Area, Commits
 - WD에서 add를 입력해 SA로 파일을 보낸다.
@@ -25,7 +25,7 @@
 
 
 
-**status**
+#### status
 
 - Working Directory와 Staging Area에 있는 **파일의 현재 상태를 알려주는 명령어**
 
@@ -45,7 +45,7 @@
 
 
 
-**commit**
+#### commit
 
 - Staging Area에 올라온 파일의 변경 사항을 **하나의 version(commit)으로 저장하는 명령어**
 - 각각의 commits은 **SHA-1** 알고리즘에 의해 반환된 고유의 hash 값을 ID로 갖는다.
@@ -56,7 +56,7 @@
 
 
 
-**log**
+#### log
 
 - *commits의 내역을 조회할 수 있는 명령어*
 - ID, 작성자, 시간, Message 등

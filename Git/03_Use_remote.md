@@ -1,8 +1,8 @@
-## Remote 활용하기
+# Remote 활용하기
 
 
 
-**git remote**
+#### git remote
 
 - local 저장소에 remote 저장소를 **등록, 조회, 삭제** 할 수 있는 명령어
 
@@ -45,7 +45,7 @@
 
 
 
-**push**
+#### push
 
 - local 저장소의 commits을 **remote 저장소에 업로드**하는 명령어
 - git push <저장소 이름> <branch 이름> 형식으로 작성한다.
@@ -62,7 +62,7 @@ $ git push -u origin master
 
 
 
-**clone**
+#### clone
 
 - remote 저장소의 commits 내역을 모두 가져와서, **local 저장소를 생성**하는 명령어
 - clone은 '복제'라는 뜻으로, git clone 명령어를 사용하면 remote 저장소를 통째로 복제해서 내 컴퓨터에 옮길 수 있다.
@@ -79,7 +79,7 @@ $ git clone https://github.com/주소
 
 
 
-**pull**
+#### pull
 
 - remote 저장소의 **변경 사항을 가져와서, local 저장소를 업데이트**하는 명령어
 - git pull <저장소 이름> <branch 이름> 형식으로 작성한다.
