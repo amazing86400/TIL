@@ -6,7 +6,7 @@
 
 
 
-*namjunemy 님의 Github TIL을 보고 많은 영감을 얻었다.*
+*[namjunemy](https://github.com/namjunemy) 님의 Github TIL을 보고 많은 영감을 얻었다.*
 
 
 
@@ -23,4 +23,6 @@
 
 **Git**
 
-- 
+- [01_CLI](https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md)
+- [02_Git 사전지식](https://github.com/amazing86400/TIL/blob/master/Git/02_Git_base.md)
+- [03_Remote 활용하기](https://github.com/amazing86400/TIL/blob/master/Git/03_Use_remote.md)
