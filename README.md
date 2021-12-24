@@ -17,6 +17,12 @@
 
 ## Part
 
+**ADsP**
+
+- [01_데이터의 이해](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md)
+
+
+
 **Git**
 
 - [01_CLI](https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md)
