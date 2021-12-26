@@ -21,6 +21,7 @@
 
 - [01_데이터의 이해](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md)
 - [02 기업 내부 데이터베이스 솔루션](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md)
+- [03 빅데이터 정의](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md)
 
 
 
