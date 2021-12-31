@@ -23,14 +23,14 @@
 - [02 기업 내부 데이터베이스 솔루션](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md)
 - [03 빅데이터 정의](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md)
 - [04 빅데이터 가치 선정 및 활용](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_4.md)
-- [05 빅데이터 위기요인과 통제방안](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_5.md)
+- [05 빅데이터 위기 요인과 통제 방안](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_5.md)
 
 
 
 **Git**
 
 - [01_CLI](https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md)
-- [02_Git 사전지식](https://github.com/amazing86400/TIL/blob/master/Git/02_Git_base.md)
+- [02_Git 사전 지식](https://github.com/amazing86400/TIL/blob/master/Git/02_Git_base.md)
 - [03_Remote 활용하기](https://github.com/amazing86400/TIL/blob/master/Git/03_Use_remote.md)
 
 
