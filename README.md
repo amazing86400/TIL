@@ -42,3 +42,4 @@
 - [02 numpy](https://github.com/amazing86400/TIL/blob/master/Python/Python_02.md)
 - [03 웹 페이지 데이터 엑셀로 저장하기](https://github.com/amazing86400/TIL/blob/master/Python/Python_03.md)
 - [04 if문](https://github.com/amazing86400/TIL/blob/master/Python/Python_04.md)
+- [05 while문](https://github.com/amazing86400/TIL/blob/master/Python/Python_05.md)
