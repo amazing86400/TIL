@@ -31,6 +31,8 @@
 **Algorithm**
 
 - [01 자료 구조와 알고리즘](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_01.md)
+- [02 선형 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_02.md)
+- [03 단순 연결 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_03.md)
 
 
 
