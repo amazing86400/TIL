@@ -34,6 +34,10 @@
 - [02 선형 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_02.md)
 - [03 단순 연결 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_03.md)
 - [04 Stack](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_04.md)
+- [05 Queue](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_05.md)
+- [06 원형 Queue](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_06.md)
+- [07 트리 구조](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_07.md)
+- [08 그래프](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_08.md)
 
 
 
