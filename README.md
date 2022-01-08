@@ -59,3 +59,4 @@
 - [04 if문](https://github.com/amazing86400/TIL/blob/master/Python/Python_04.md)
 - [05 while문](https://github.com/amazing86400/TIL/blob/master/Python/Python_05.md)
 - [06 for문](https://github.com/amazing86400/TIL/blob/master/Python/Python_06.md)
+- [07 random 함수](https://github.com/amazing86400/TIL/blob/master/Python/Python_07.md)
