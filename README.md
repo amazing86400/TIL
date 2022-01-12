@@ -62,3 +62,4 @@
 - [07 random 함수](https://github.com/amazing86400/TIL/blob/master/Python/Python_07.md)
 - [08 조건문 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_08.md)
 - [09 Pandas_Series](https://github.com/amazing86400/TIL/blob/master/Python/Python_09.md)
+- [10 Pandas read & save](https://github.com/amazing86400/TIL/blob/master/Python/Python_10.md)
