@@ -1,4 +1,4 @@
-# 멜론 TOP100 웹 크롤링
+# Melon chart_web crawling
 
 
 
@@ -127,7 +127,7 @@ http://bit.ly
 
 
 
-### melon chart TOP 100 저장하기
+### Melon chart TOP 100 저장하기
 
 ```python
 song_data = []
