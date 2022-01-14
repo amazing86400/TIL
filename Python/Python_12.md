@@ -2,6 +2,17 @@
 
 
 
+### 학습 목표
+
+- web crawling을 통해 Genie chart 50 data를 엑셀로 저장할 수 있다.
+- 저장된 엑셀 data를 통합할 수 있다.
+
+
+
+---
+
+
+
 ### 라이브러리
 
 ```python

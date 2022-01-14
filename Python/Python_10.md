@@ -2,6 +2,16 @@
 
 
 
+### 학습 목표
+
+- pandas와 numpy를 활용해 데이터를 읽고, 수정하고, 저장할 수 있다.
+
+
+
+---
+
+
+
 ```python
 import pandas as pd
 import numpy as np

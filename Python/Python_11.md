@@ -2,6 +2,16 @@
 
 
 
+### 학습 목표
+
+- web crawling을 통해 Melon chart 100 data를 엑셀로 저장할 수 있다.
+
+
+
+---
+
+
+
 ### 라이브러리
 
 ```python
