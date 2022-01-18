@@ -64,5 +64,4 @@ jeju_insta_df.shape
 
  'content' 열 데이터에 들어있는 게시글의 본문 내용이 동일하면 중복으로 판단해서 제거한다.  여기서 inplace = True 옵션은 변경 내용을 변수에 저장하는 내용이다. inplace를 해줘야 데이터가 변경되어 있다. (jeju_insta_df = jeju_insta_df.drop_duplicates(subset = ['content'])) 이렇게 해줘도 된다. 판다스에서는 단계별로 데이터 확인 및 복구가 용이하도록 기본적으로 inplace가 False로 되어있어 원본을 변경하지 않는다.
 
- 변경 내용을 엑셀로 저장한다.
-
+ 변경 내용을 엑셀로 저장한다. 데이터 변경 전과 후로 shape을 통해 데이터가 어떻게 변경되는지를 확인하자.
