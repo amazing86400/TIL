@@ -227,7 +227,7 @@ def insta_crawling(word,n):
 ```python
 result_df = pd.DataFrame(result)
 result_df.columns = ['contents','date','like','place','tags']
-result_df.to_excel('./files/jejufood.xlsx', index= False)
+result_df.to_excel('./files/1_crawling_raw.xlsx', index= False)
 ```
 
  리스트 형태의 data를 보기 좋게 dataframe 형태로 만들어주고, 컬럼도 정해준다. 그리고 엑셀파일로 저장한다. 이때 인덱스는 False로 설정해 주자.
