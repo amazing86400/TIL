@@ -25,7 +25,7 @@ queue = [None for _ in range(SIZE)]
 front = rear = 0
 ```
 
- 일반 queue와 달리 원형 queue는 front와 rear가 이어져있기 때문에 -1은 뒤로 돌아간다. 그래서 초기화를 시키려면 둘의 값을 0으로 설정해 주자.
+​	일반 queue와 달리 원형 queue는 front와 rear가 이어져있기 때문에 -1은 뒤로 돌아간다. 그래서 초기화를 시키려면 둘의 값을 0으로 설정해 주자.
 
 
 
@@ -44,7 +44,7 @@ def isQueueEmpty():
         return False
 ```
 
- queue가 빈 경우인데, queue와 동일하다.
+​	queue가 빈 경우인데, queue와 동일하다.
 
 
 
@@ -63,7 +63,7 @@ def isQueueFull():
         return False
 ```
 
- 원형큐는 전체에서 한 칸을 낭비하게 된다. 원형 큐가 한 칸만 빼고 다 찼을 때 하나 더 추가하게 되면 front와 rear가 같아지게 되어 조건문에 따라 꽉 찼다고 반환된다. 그래서 한 칸이 빈 것이 꽉 찬것이다(rear+1 == front). [0,1,2,3,4]가 있을 때, 4 다음은 0이 되는 식이다. 여기서 주의해야할 게 만약 일반 queue문 처럼 rear+1 == front라고 해주면 마지막 차례에서 4다음은 0이기 때문에 둘은 값이 같아지게 된다. 그래서 rear+1에 배열 전체(SIZE)를 나눈 몫이 front와 같다고 설정해 준 것이다.
+​	원형큐는 전체에서 한 칸을 낭비하게 된다. 원형 큐가 한 칸만 빼고 다 찼을 때 하나 더 추가하게 되면 front와 rear가 같아지게 되어 조건문에 따라 꽉 찼다고 반환된다. 그래서 한 칸이 빈 것이 꽉 찬것이다(rear+1 == front). [0,1,2,3,4]가 있을 때, 4 다음은 0이 되는 식이다. 여기서 주의해야할 게 만약 일반 queue문 처럼 rear+1 == front라고 해주면 마지막 차례에서 4다음은 0이기 때문에 둘은 값이 같아지게 된다. 그래서 rear+1에 배열 전체(SIZE)를 나눈 몫이 front와 같다고 설정해 준 것이다.
 
 
 
@@ -83,7 +83,7 @@ def enQueue(data):
     queue[rear] = data
 ```
 
- enQueue 함수도 일반 queue에서와 유사한데, 차이점이 있다면 rear에 1을 추가한 뒤 SIZE로 나누는 것이다.
+​	enQueue 함수도 일반 queue에서와 유사한데, 차이점이 있다면 rear에 1을 추가한 뒤 SIZE로 나누는 것이다.
 
 
 
@@ -105,4 +105,4 @@ def deQueue():
     return data
 ```
 
- 마찬가지로 deQueue 역시 front에 1을 더하고 SIZE로 나눠준다.
+​	마찬가지로 deQueue 역시 front에 1을 더하고 SIZE로 나눠준다.
