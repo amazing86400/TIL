@@ -36,7 +36,7 @@
 
     ```bash
     $ git remote rm origin
-    $ gir remote remove origin
+    $ git remote remove origin
     ```
 
     
