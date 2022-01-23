@@ -74,3 +74,4 @@
 - [19 Instagram web crawling 시각화(막대그래프 & Word Cloud)](https://github.com/amazing86400/TIL/blob/master/Python/Python_19.md)
 - [20 Instagram KAKAO API](https://github.com/amazing86400/TIL/blob/master/Python/Python_20.md)
 - [21 Instagram 핫플레이스 folium 지도 시각화](https://github.com/amazing86400/TIL/blob/master/Python/Python_21.md)
+- [22 instagram 특정 단어가 포함된 게시물 추출](https://github.com/amazing86400/TIL/blob/master/Python/Python_22.md)
