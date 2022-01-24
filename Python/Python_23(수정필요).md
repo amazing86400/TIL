@@ -1,15 +1,11 @@
-# 왜 우리 동네에는 스타벅스가 없을까?
-
-
-
-## starbucks web crawling
+# Open cv
 
 
 
 ### 학습 목표
 
-- 스타벅스 사이트의 웹크롤링을 통해 서울에 위치한 스타벅스 전 매장의 정보를 얻을 수 있다.
-- 
+- 이미지 파일을 원하는 사이즈와 컬러 타입으로 읽을 수 있다.
+- 여러 이미지 파일을 전체화면 사이즈로 슬라이드쇼로 나타낼 수 있다.
 
 
 
@@ -20,16 +16,14 @@
 ### 라이브러리
 
 ```python
-import pandas as pd
 import numpy as np
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-import time
+import cv2
+import sys
+import matplotlib.pyplot as plt
+import os
 ```
 
-​	웹크롤링을 위해 selenium와 bs4 라이브러리를 부른다. 그리고 HTML 정보를 추출하기 위해 BeautifulSoup 라이브러리도 추가했다. find_element() 함수를 사용하기 위해 By 라이브러리도 가져오고 error 방지를 위해 time도 불러온다.
+​	
 
 
 
@@ -37,105 +31,163 @@ import time
 
 
 
-### 데이터 수집_web crawling
+### 파일 읽기
 
 ```python
-ser = Service('../chromedriver/chromedriver.exe')
-driver = webdriver.Chrome(service = ser)
-url = 'https://www.starbucks.co.kr/'
-driver.get(url)
+img = cv2.imread('./fig/cat.bmp')
+
+if img is None:
+    print('image read failed')
+    sys.exit()
+
+cv2.namedWindow('image')
+cv2.imshow('image', img)
+cv2.waitKey()
+cv2.destroyAllWindows()
 ```
 
-​	오늘은 다른 방식으로 web crawilng을 할 것이다. 이전에 인스타그램 crawling을 했을 때 사용했던 find_element() 함수 방식을 사용하는 방법이다. 먼저 크롬 드라이버를 열고, url을 스타벅스 홈페이지로 설정한다. 직접 [store] > [매장찾기] > [지역검색]에 들어가서 개발자창을 열고 '서울' 태그를 찾는다. 그리고 그 태그를 오른쪽 마우스로 클릭하고 [copy] > [copy selector]를 눌러 복사한다.
+​	위 코드가 가장 기본이 되는 코드이다. 여기서 조금씩만 수정해서 사용하면 되겠다. 우선 코드를 하나씩 보면, cv2.imread() 함수로 사진파일을 불러온다. 여기서 만약 찾는 이미지 파일이 없을 경우를 대비해 if문을 넣어줬다. cv2 코드는 한번 오류나면 어디서 났는지 확인하기가 어려워 이렇게 예외처리를 미리 해주는게 좋다. sys.exit()은 프로그램을 종료하는 함수다.
+
+​	cv2.nameWindow() 함수는 이미지 창의 이름을 설정하는 함수다. 창이 열렸을때 설정한 값이 왼쪽 상단에 표시된다. 그리고 imshow() 함수에 창 이름과 파일 자료를 넣어준다. 이미지 파일을 보여주는 코드다. 여기까지만 해서는 열리지 않는다. 반드시 밑에 두 코드는 입력해줘야 한다. waitKey()는 창을 닫을 때 받는 키를 설정하는 함수이고, destroyAllWindows() 함수가 창을 닫는 함수이다. waitKey()를 따로 설정해 주지 않으면 사용자가 키를 누르기 전까지는 이미지가 계속 열려져있다. 이때 아무 키나 눌러도 창이 닫힌다.
 
 
+
+---
+
+
+
+### flags 설정
 
 ```python
-seoul_btn = '#container > div > form > fieldset > div > section > article.find_store_cont > article > article:nth-child(4) > div.loca_step1 > div.loca_step1_cont > ul > li:nth-child(1) > a'
-driver.find_element(By.CSS_SELECTOR, seoul_btn).click()
-time.sleep(3)
+cv2.imread('./fig/cat.bmp', cv2.IMREAD_COLOR)
+cv2.imread('./fig/cat.bmp', cv2.IMREAD_GRAYSCALE)
+cv2.imread('./fig/cat.bmp', cv2.IMREAD_UNCHANGED)
 ```
 
-​	복사한 태그의 구조 정보(CSS selector)를 seoul_btn에 붙여 넣고, find_element() 함수를 사용해 click() 명령을 추가하면 해당 버튼을 클릭한다. 즉, 매장 지역검색에서 서울이 선택된다. 그리고 error를 방지하기 위해 time.sleep(3)을 해주었다.
+​	이미지 파일의 색상 타입을 설정하는 것이 flags이다. 따로 입력을 해주어 설정을 바꿀 수 있고, 만약 생략한다면 default 값으로 COLOR가 설정된다. GRAYSCALE은 흑백 사진이고, UNCHANGED 'alpha channel image'를 읽어올 때 사용한다. 알파 파일은 채널이 4개이기 때문이다.
 
 
+
+---
+
+
+
+### Size 조절
 
 ```python
-all_btn = '#mCSB_2_container > ul > li:nth-child(1) > a'
-driver.find_element(By.CSS_SELECTOR, all_btn).click()
-time.sleep(3)
+img = cv2.imread('./fig/cat.bmp', cv2.IMREAD_REDUCED_COLOR_4)
+
+if img is None:
+    print('image read failed')
+    sys.exit()
+print(img.shape)
+
+cv2.namedWindow('image')
+cv2.imshow('image', img)
+cv2.waitKey()
+cv2.destroyAllWindows()
 ```
 
-​	같은 방식으로 '전체'의 CSS selector를 가져와 all_btn에 넣고 실행한다.
-
-
-
-```python
-html = driver.page_source
-soup = BeautifulSoup(html, 'html.parser')
-
-# 서울 전매장
-starbucks_list = soup.select('ul.quickSearchResultBoxSidoGugun > li.quickResultLstCon')
-starbucks_store = starbucks_list[0]
-
-# 매장명
-name = starbucks_store.select('li.quickResultLstCon > strong')[0].text.strip()
-
-# 위도
-lat = starbucks_store['data-lat']
-
-# 경도
-lng = starbucks_store['data-long']
-
-# 매장 타입
-store_type = starbucks_store.select('i')[0]['class'][0][4:]
-
-# 주소
-## 방법 1
-add = str(starbucks_store.select('p.result_details')[0]).split('<br/>')[0].split('>')[1]
-## 방법 2
-add = starbucks_store.select('p.result_details')[0].text[:-9]
-
-# 전화번호
-## 방법 1
-tel = str(starbucks_store.select('p.result_details')[0]).split('<br/>')[1].split('<')[0]
-## 방법 2
-tel = starbucks_store.select('p.result_details')[0].text[-9:]
-```
-
-​	이제 서울에 위치해 있는 총 568개 전 매장의 매장명, 위도, 경도, 매장 타입, 주소, 그리고 전화번호의 data를 가져올 것이다. 가장 먼저 BeautifulSoup()을 통해 HTML 정보를 가져온다. 그리고 select() 함수로 필요한 정보만 추출하자. 태그 위치는 개발자창을 통해 찾는다.
-
-​	일단 스타벅스 전 매장의 리스트부터 찾아야 한다. 그래야 나중에 for문을 돌릴 때 전 매장의 data를 가져올 수 있기 때문이다. 태그 중 'li' 태그를 확인해 보면 각각의 매장이 선택되고, 그 매장들마다 태그와 형식이 모두 동일하게 되어 있는 것을 확인할 수 있다. 코드를 입력해서 확인해 보자. 잘 나왔는지는 len() 함수를 통해 매장 개수와 동일한지를 확인하고 처음과 끝을 확인하면 알 수 있다.
-
-​	그리고 for문을 돌리기 전에 제일 첫 번째 매장으로 각각 필요한 정보를 추출해 보자. 이렇게 하면 for문을 돌릴 때 수월하게 진행할 수 있다. name은 매장명 중에 빈칸이 있어서 제거해 주기 위해 strip() 함수를 사용했다.  store_type은 태그 안에 있는 'general'이이라는 단어만 얻고 싶어서 위와 같이 코드를 입력했다. 그리고 주소와 전화번호는 방법이 두 개인데, 하나는 str으로 select() 함수를 묶고 split() 함수를 사용하는 방식과 나머지 하나는 슬라이싱을 하는 방식이다. 두 가지 모두 결과는 동일하다. 장단점이 있는데, 만약 전화번호가 전 매장 모두 동일한 개수라면 슬라이싱이 간편해서 좋다. 하지만 그렇지 않고 전화번호가 매장마다 개수가 다르다면 호환성이 좋은 방법 1이 알맞다.
+​	사이즈를 조절하는 방법은 몇가지 있다. 위 코드는 사이즈가 큰 이미지 파일을 작게 나타낼 때 사용한다. 첫 번째 코드에서 flags만 cv2.IMREAD_REDUCED_COLOR_4로 설정해주면 된다. 이미지 파일의 색상은 COLOR, GRAYSCALE 중에 선택할 수 있고, 사이즈는 2, 4, 8 중에 선택하면 된다. 8이 가장 작은 사이즈다.
 
 
 
 ```python
-starbucks = []
+img = cv2.imread('./fig/cat.bmp')
 
-for star in starbucks_list:
-    name = star.select('li.quickResultLstCon > strong')[0].text.strip()
-    lat = star['data-lat']
-    lng = star['data-long']
-    store_type = star.select('i')[0]['class'][0][4:]
-    add = str(star.select('p.result_details')[0]).split('<br/>')[0].split('>')[1]
-    tel = str(star.select('p.result_details')[0]).split('<br/>')[1].split('<')[0]
-    mylist = [name, lat, lng, store_type, add, tel]
-    starbucks.append(mylist)
+if img is None:
+    print('image read failed')
+    sys.exit()
+
+img_re = cv2.resize(img, (320,240), interpolation = cv2.INTER_AREA)
+    
+cv2.namedWindow('image')
+cv2.imshow('image', img_re)
+cv2.waitKey()
+cv2.destroyAllWindows()
 ```
 
-​	for문을 돌린 코드는 위와 같다. starbucks라는 빈 리스트를 만들고 여기에 데이터를 넣어줄 것이다. 그리고 앞서 찾은 스타벅스 전 매장의 리스트(starbucks_list)를 star로 돌리고 select() 함수를 사용해 정보를 추출한다. 그리고 mylist에 변수들을 모두 담아 starbucks에 append() 해준다. 그러면 추출한 모든 스타벅스 정보가 리스트에 담길 것이다.
+​	이번엔 사이즈를 직접 설정해주는 방법이다. 코드 한 줄만 추가해주면 된다. cv2.resize() 함수를 사용해 img 변수를 (사이즈)만큼 바꿔주고, interpolation 옵션을 입력해준다. interpolation은 뒤에 자세히 설명하겠다. 지금은 일단 적고 넘어가자.
+
+​	나는 파일 사이즈를 기존의 절반으로 만들었다. 여기서 주의할 것은 현재 이미지 파일 타입을 보면 numpy array 형태이다. 그렇기 때문에 순서가 (r, c) 순으로 되어있다. 하지만 opencv는 (x, y) 순이기 때문에 둘의 순서가 반대로 되어있다. 그래서 코드를 입력할때 주의해야한다. 즉 파일 shape이 (480, 640, 3)일 때, (240, 320)이 아닌 (320, 240)을 해줘야 더 알맞게 사이즈가 조절된다.
 
 
 
 ```python
-columns = ['매장명','위도','경도','매장타입','주소','전화번호']
-seoul_starbucks_df = pd.DataFrame(starbucks, columns=columns)
-seoul_starbucks_df.head()
+img = cv2.imread('./fig/cat.bmp')
 
-seoul_starbucks_df.to_excel('./files/seoul_starbucks_list_class.xlsx', index=False)
+if img is None:
+    print('image read failed')
+    sys.exit()
+    
+cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.imshow('image', img_re)
+cv2.waitKey()
+cv2.destroyAllWindows()
 ```
 
-​	완성된 리스트 파일을 데이터프레임 형태로 바꿔주는데, 구분을 짓기 위해 컬럼을 지정해 준다. 그리고 to_excel로 저장하면 된다.
+​	이 코드는 namedwindow()를 설정해 사이즈를 조절하는 코드이다. namedwindow() 함수는 다른 설정이 없으면 default 값으로 cv2.WINDOW_AUTOSIZE로 설정이 되는데, 이러면 창의 사이즈를 내 마음대로 조절할 수가 없다. 그래서 이것을 NORMAL로 바꿔주면 자신이 원하는 사이즈만큼 창 끝을 화살표 마우스를 활용해 조절이 가능하다.
+
+
+
+---
+
+
+
+### 시작 위치 조절
+
+```python
+img = cv2.imread('./fig/cat.bmp')
+
+if img is None:
+    print('image read failed')
+    sys.exit()
+    
+cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)
+cv2.imshow('image', img_re)
+cv2.moveWindow('image', 500,600)
+cv2.waitKey()
+cv2.destroyAllWindows()
+```
+
+​	이미지 창을 열었을 때 시작위치를 조절하고 싶다면 cv2.moveWindow() 함수를 사용하면 된다. 변수는 (창이름, x, y)으로 설정해준다. 이번에도 opencv의 형태인 x, y 순을 잊지 말자. 숫자가 커질수록 x는 오른쪽으로, y는 아래쪽으로 이동한다.
+
+
+
+---
+
+
+
+### waitKey()
+
+```python
+cv2.waitKey()
+cv2.waitKey(3000)
+```
+
+​	앞서 waitKey()를 조금 설명하긴했지만 좀 더 기능을 자세히 알아보겠다. 우선 waitkey를 아무런 값도 설정하지 않는다면 아무 키나 눌러도 창이 닫히고, 키를 누르기 전까지는 이미지가 계속 열린 상태로 있다. 만약 3초가 지나면 알아서 닫히게 하고 싶다면 3000으로 설정해주면 된다. 이러면 알아서 시간이 지나면 닫힌다. 3초 안에 키를 입력하면 그 전에 닫히기도 한다.
+
+
+
+```python
+while True:
+    key = cv2.waitKey()
+	if key == 27:
+    	break
+```
+
+​	무한루프를 활용한 코드를 만들어봤다. 계속 창을 열어두다가 만약 입력 키가 27이면 닫으라는 의미다. 여기서 27은 ascii 코드인데, 각각의 키는 ascii 코드가 부여된다. 27번은 esc 키고, 다른 키들을 알고 싶다면 구글링을 통해 알아보자.
+
+
+
+```python
+while True:
+    key = cv2.waitKey()
+    if key ==27 or key == ord('q')
+        break
+```
+
+​	ascii 코드를 모두 외우고 다닐 수 없기 때문에 만든 코드이다. ord()를 활용하면 ascii 코드를 몰라도 내가 원하는 키를 활용해 창을 닫을 수가 있다. 위 코드는 q를 누르면 창이 닫히는 코드이다.
+
+
 
