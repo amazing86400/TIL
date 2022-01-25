@@ -1,4 +1,4 @@
-# Open cv
+# Open cv_intro
 
 
 
@@ -21,9 +21,10 @@ import cv2
 import sys
 import matplotlib.pyplot as plt
 import os
+import glob
 ```
 
-​	이미지 파일 데이터를 활용하기 위한 라이브러리를 불러온다.
+​	이미지 파일 데이터를 활용하기 위한 라이브러리를 불러온다. os와 glob은 슬라이드 쇼를 만들 때 사용하는데, 기능은 비슷하고 glob이 사용하기가 좀 더 편하다.
 
 
 
@@ -257,6 +258,30 @@ cv2.destroyAllWindows()
 ```
 
 ​	우선 os 라이브러리를 통해 여러 사진 파일을 리스트 형태로 만든다. 그리고 fof문을 통해 각 파일을 파일 경로에 맞게 path에 추가한다. 다음으로는 전체 화면으로 나타내는 코드를 입력한다. 중간에 cv2 코드처럼 옵션을 넣어주면 된다. 그리고 무한루프를 돌려 슬라이드 쇼가 진행되도록 할 것이다. path 리스트의 인덱스를 하나씩 cv2.inread()로 읽을 것이다. 그래서 idx를 0부터 1씩 증가하게 하고, 만약 len(path)를 넘으면 다시 0으로 돌아가서 반복될 수 있도록 조건을 걸었다. 그리고 waitkey() 함수도 if문을 통해 창이 닫히는 조건을 입력했다. 
+
+
+
+```python
+img_list = glob.glob('./fig/images/*.*') # *.png
+
+cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.setWindowProperty('image', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+
+idx = 0
+while True:
+    img = cv2.imread(img_list[idx])
+    cv2.imshow('image', img)
+    if cv2.waitKey(3000) == 27:
+        break
+    idx += 1
+    
+    if idx >= len(img_list):
+        idx = 0
+        
+cv2.destroyAllWindows()
+```
+
+​	이번엔 glob 라이브러리를 활용한 방법이다.
 
 
 
