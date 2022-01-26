@@ -77,3 +77,4 @@
 - [22 instagram 특정 단어가 포함된 게시물 추출](https://github.com/amazing86400/TIL/blob/master/Python/Python_22.md)
 - [23 open cv intro](https://github.com/amazing86400/TIL/blob/master/Python/Python_23.md)
 - [24 open cv basic](https://github.com/amazing86400/TIL/blob/master/Python/Python_24.md)
+- [25 open cv secondary](https://github.com/amazing86400/TIL/blob/master/Python/Python_25.md)
