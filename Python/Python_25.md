@@ -167,7 +167,7 @@ cv2.destroyAllWindows()
 
 ​	웹캠의 영상 데이터를 가져오는 코드이다. VideoCapture(\) 함수를 사용하며, 0이 default 값이다. 보통 0은 현재 사용하는 웹캠이다. 캠이 여러 개라면 숫자를 하나씩 늘려서 확인하면 된다. 그리고 예외 처리로 만약 캠이 없을 경우를 대비해 if문을 사용했다.
 
-​	이제 무한루프를 활용해서 영상을 받아올 것이다. ret, frame = cap.read() 여기서 ret은 True, False 값이 들어오고, frame 변수에 영상이 들어간다. 그리고 if문을 통해 ret이 False 이면 break 되도록 해주었다. 이때 break를 해줬다면 cap.release() 함수를 꼭 입력해 줘야 한다. 이 코드가 없으면 오류가 나온다. 다음으로 edge를 설정해 줬는데, Canny() 함수는 영상을 binary 형태로 보여준다.
+​	이제 무한루프를 활용해서 영상을 받아올 것이다. ret, frame = cap.read() 여기서 ret은 True, False 값이 들어오고, frame 변수에 영상이 들어간다. 그리고 if문을 통해 ret이 False 이면 break 되도록 해주었다. 이때 break를 해줬다면 cap.release() 함수를 꼭 입력해 줘야 한다. 이 코드가 없으면 오류가 나온다. opencv가 웹캠을 계속 컨트롤해서 캠 사용에 문제가 생긴다. 다음으로 edge를 설정해 줬는데, Canny() 함수는 영상을 binary 형태로 보여준다.
 
 
 
@@ -215,5 +215,172 @@ cv2.destroyAllWindows()
 
 ​	동영상 파일은 VideoCapture() 함수에 동영상 파일 경로를 입력하면 된다. 나머지는 웹캠이랑 동일하다. 그리고 저장을 해볼 건데 동영상을 저장할 때 width, height, fps, fourcc 이 네 개를 반드시 설정해 줘야 한다. width, height는 영상의 size를 의미하고, 모두 float으로 되어 있어 int로 묶어줬다. fps는 초당 몇 개의 프레임이 들어오는지를 설정하는 코드다. 보통 속도가 빠르거나 느릴 때 설정해 준다. 그리고 fourcc는 코덱을 설정하는 함수다. 일반적으로는 DIVX를 사용하며, 만약 일치하는 코덱이 없다면 다운받아 줘야 한다. 그리고 VideoWriter() 함수로 저장해 주면 된다. 이때 out.release() 함수도 가장 밑에 함께 입력해 줘야 한다. 이 함수는 파일을 닫는 함수인데 입력을 안 해준다면 파일이 닫히지 않아 저장이 안 된다.
 
-​	edge도 저장이 가능한데, 저장하기 전에 gray 타입을 BGR로 바꿔줘야 한다. 그리고 out.write() 함수로 edge를 저장하면 된다. 중간에 edge = 255 - edge 이 코드는 edge를 하얗게 볼 수 있게 한다.
+​	edge도 저장이 가능한데, 저장하기 전에 gray 타입을 BGR로 바꿔줘야 한다. 그리고 out.write() 함수로 edge를 저장하면 된다. 중간에 edge = 255 - edge 이 코드는 edge를 inverse해서 보여준다. 즉 하얗게 볼 수 있다.
+
+
+
+---
+
+
+
+### Key Event
+
+```python
+img = cv2.imread('./fig/cat.bmp', 0)
+
+if img is None:
+    print('image read failed')
+    sys.exit()
+
+img1 = img.copy()
+    
+cv2.imshow('img',img)
+
+while True:
+    key = cv2.waitKey()
+    if key == 27:
+        break
+    
+    elif key == ord('e'):
+        img = cv2.Canny(img, 50, 150)
+        cv2.imshow('img',img)
+
+    elif key == ord('i'):
+        img = 255 - img
+        cv2.imshow('img',img)
+    
+    elif key == ord('r'):
+        img = img1.copy()
+        cv2.imshow('img',img)
+
+cv2.destroyAllWindows()
+```
+
+​	이번에는 키보드의 키(key)에 원하는 기능(event)을 저장해, 키를 눌렀을때 event가 실행이 되도록 코드를 만들어 보겠다. 우선 똑같이 영상을 불러온다. 그리고 무한 루프를 돌리고, key를 지정해줄 것이다.
+
+​	먼저 첫 번째 조건은 '27(esc)'를 눌렀을 때 break를 하고 창을 닫는다. 두 번째 조건은 'e'를 눌렀을 때 영상을 Canny()로 띄우는 코드다. 그리고 그것의 inverse 버전이 'i'를 눌렀을 때 실행되는 세 번째 조건이다. 세 번째 조건을 실행하기 위해선 영상을 흑백으로 읽어야 한다. 그래서 읽어올 때 color로 읽거나 아니면 cvtColor()를 활용해 바꿔준다. 마지막 조건은 'r'을 눌렀을 때 원래의 영상으로 돌아오는 코드다. 이때는 영상을 새로 읽는 것이 아니라, copy() 함수를 사용하면 된다. img를 copy해서 img1을 만들고 img1을 copy()한다. 이러면 원하는 결과를 얻을 수 있을 것이다. 
+
+
+
+---
+
+
+
+### 마우스 위치 이벤트
+
+```python
+def call_mouse(event, x, y, flags, param):
+    
+    # 왼쪽 버튼 누를 때 마우스 좌표 표시
+    if event == cv2.EVENT_LBUTTONDOWN:
+        print('left btn down= ', x, y)
+    
+    # 왼쪽 버튼 뗄 때 마우스 좌표 표시
+    elif event == cv2.EVENT_LBUTTONUP:
+        print('left btn up= ', x, y)
+    
+    # 마우스가 움직이는 구간을 따라 위치 표시
+    # if문 왼쪽 버튼이 눌려져 있을 경우만!
+    elif event == cv2.EVENT_MOUSEMOVE:
+        if flags == cv2.EVENT_FLAG_LBUTTON:
+            print(x, y)
+```
+
+​	마우스 위치 이벤트는 함수를 정의해서 사용한다. 
+
+
+
+```python
+oldx = oldy = 0
+
+# x,y 는 마우스 위치 좌표
+def call_mouse(event, x, y, flags, param):
+    global oldx, oldy
+    
+    # 시작점 지정
+    if event == cv2.EVENT_LBUTTONDOWN:
+        oldx, oldy = x, y
+        print('left btn down= ', x, y)
+    
+    elif event == cv2.EVENT_MOUSEMOVE:
+        if flags == cv2.EVENT_FLAG_LBUTTON:
+            cv2.line(img, (oldx, oldy), (x, y), (255,0,0), 4, cv2.LINE_AA)
+            cv2.imshow('img',img)
+            oldx, oldy = x,y
+```
+
+
+
+```python
+img = np.ones((480, 640, 3), np.uint8) * 255
+
+cv2.namedWindow('img')
+
+cv2.setMouseCallback('img', call_mouse, img)
+# 마우스이벤트 수행할 창이름, 마우스 이벤트 콜백 함수, 콜백함수에 전달할 데이터
+
+cv2.imshow('img',img)
+
+while True:
+    key = cv2.waitKey()
+    if key == 27:
+        break
+    
+    elif key == ord('s'):
+        cv2.imwrite('mysign.png',img)
+    
+cv2.destroyAllWindows()
+```
+
+
+
+
+
+---
+
+
+
+### Trackbar
+
+```python
+def call_trackbar(pos):
+    # 이미지 전체 위치 값
+    img[:] = pos
+    cv2.imshow('image', img)
+    
+img = np.zeros((480, 640), np.uint8)
+
+cv2.namedWindow('image')
+
+cv2.createTrackbar('level', 'image', 50, 255, call_trackbar)
+# 바의 이름, 윈도우 이름, 위치 초기값, max(255), 함수
+
+cv2.imshow('image', img)
+
+cv2.waitKey()
+cv2.destroyAllWindows()
+```
+
+
+
+```python
+def call_track(pos):
+    global img
+    
+    img_glass = img * pos
+    cv2.imshow('image', img_glass)
+
+img_alpha = cv2.imread('./fig/imgbin_sunglasses_1.png', cv2.IMREAD_UNCHANGED)
+
+img = img_alpha[:,:,-1]
+
+img[img > 0] = 1
+
+cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.imshow('image', img)
+cv2.createTrackbar('level','image',50, 255, call_track)
+
+cv2.waitKey()
+cv2.destroyAllWindows()
+```
 
