@@ -256,9 +256,9 @@ while True:
 cv2.destroyAllWindows()
 ```
 
-​	이번에는 키보드의 키(key)에 원하는 기능(event)을 저장해, 키를 눌렀을때 event가 실행이 되도록 코드를 만들어 보겠다. 우선 똑같이 영상을 불러온다. 그리고 무한 루프를 돌리고, key를 지정해줄 것이다.
+​	이번에는 키보드의 키(key)에 원하는 기능(event)을 저장해, 키를 눌렀을 때 event가 실행이 되도록 코드를 만들어 보겠다. 우선 똑같이 영상을 불러온다. 그리고 무한 루프를 돌리고, key를 지정해 줄 것이다.
 
-​	먼저 첫 번째 조건은 '27(esc)'를 눌렀을 때 break를 하고 창을 닫는다. 두 번째 조건은 'e'를 눌렀을 때 영상을 Canny()로 띄우는 코드다. 그리고 그것의 inverse 버전이 'i'를 눌렀을 때 실행되는 세 번째 조건이다. 세 번째 조건을 실행하기 위해선 영상을 흑백으로 읽어야 한다. 그래서 읽어올 때 color로 읽거나 아니면 cvtColor()를 활용해 바꿔준다. 마지막 조건은 'r'을 눌렀을 때 원래의 영상으로 돌아오는 코드다. 이때는 영상을 새로 읽는 것이 아니라, copy() 함수를 사용하면 된다. img를 copy해서 img1을 만들고 img1을 copy()한다. 이러면 원하는 결과를 얻을 수 있을 것이다. 
+​	먼저 첫 번째 조건은 '27(esc)'를 눌렀을 때 break를 하고 창을 닫는다. 두 번째 조건은 'e'를 눌렀을 때 영상을 Canny()로 띄우는 코드다. 그리고 그것의 inverse 버전이 'i'를 눌렀을 때 실행되는 세 번째 조건이다. 세 번째 조건을 실행하기 위해선 영상을 흑백으로 읽어야 한다. 그래서 읽어올 때 color로 읽거나 아니면 cvtColor()를 활용해 바꿔준다. 마지막 조건은 'r'을 눌렀을 때 원래의 영상으로 돌아오는 코드다. 이때는 영상을 새로 읽는 것이 아니라, copy() 함수를 사용하면 된다. img를 copy 해서 img1을 만들고 img1을 copy() 한다. 이러면 원하는 결과를 얻을 수 있을 것이다. 
 
 
 
@@ -266,38 +266,34 @@ cv2.destroyAllWindows()
 
 
 
-### 마우스 위치 이벤트
+### Mouse Event
 
 ```python
 def call_mouse(event, x, y, flags, param):
     
-    # 왼쪽 버튼 누를 때 마우스 좌표 표시
     if event == cv2.EVENT_LBUTTONDOWN:
         print('left btn down= ', x, y)
     
-    # 왼쪽 버튼 뗄 때 마우스 좌표 표시
     elif event == cv2.EVENT_LBUTTONUP:
         print('left btn up= ', x, y)
     
-    # 마우스가 움직이는 구간을 따라 위치 표시
-    # if문 왼쪽 버튼이 눌려져 있을 경우만!
     elif event == cv2.EVENT_MOUSEMOVE:
         if flags == cv2.EVENT_FLAG_LBUTTON:
             print(x, y)
 ```
 
-​	마우스 위치 이벤트는 함수를 정의해서 사용한다. 
+​	마우스 이벤트는 cv2.setMouseCallback() 함수를 사용하는데, 이 함수를 사용하기 위해서는 미리 def를 정의해야 한다. 마우스 이벤트의 기본적인 매개변수는 (event, x, y, flags, param)이다. x와 y는 마우스의 위치 좌표를 의미하고 flags는 이벤트시 발생 상태를 의미한다. 그리고 param은 cv2.setMouseCallback()함수에서 설정한 데이터이다.
+
+​	첫 번째 조건은 왼쪽 마우스를 클릭했을 때 위치 좌표를 출력하라는 의미다. 그리고 두 번째 조건은 왼쪽 마우스를 뗐을 때의 마우스 좌표 출력이다. 만약 마우스가 움직이는 구간에 따라서 위치를 얻고 싶다면 세 번째 조건처럼 cv2.EVENT_MOUSEMOVE를 사용하면 된다. 여기서 cv2.EVENT_FLAG_LBUTTON 코드를 세부 조건으로 준다면 마우스를 누르는 동안에만 마우스 위치를 반환한다. 
 
 
 
 ```python
 oldx = oldy = 0
 
-# x,y 는 마우스 위치 좌표
 def call_mouse(event, x, y, flags, param):
     global oldx, oldy
     
-    # 시작점 지정
     if event == cv2.EVENT_LBUTTONDOWN:
         oldx, oldy = x, y
         print('left btn down= ', x, y)
@@ -308,6 +304,8 @@ def call_mouse(event, x, y, flags, param):
             cv2.imshow('img',img)
             oldx, oldy = x,y
 ```
+
+​	이제 새로운 캔버스에 그림을 그릴 수 있는 코드를 만들어 보겠다. 함수를 먼저 정의한다. 이때 oldx = oldy = 0를 설정하는 이유는 마우스의 시작 위치를 나타내기 위함이다. 선을 그리려면 시작 위치와 끝 위치를 알아야 하기 때문이다. 그리고 global을 통해 oldx와 oldy를 정의한다. 다음으로 line() 함수로 선을 그릴 수 있는 코드를 만든다. 조건은 마우스가 움직이는 동안, 왼쪽 버튼을 클릭했을 때로 지정한다. 그리고 line() 함수에서 범위는 시작 위치를 (oldx, oldy)로 하고 끝 위치는 (x, y)로 하면 클릭한 순간부터 클릭을 멈춘 순간까지의 거리만큼 선이 그려질 것이다.
 
 
 
@@ -332,7 +330,7 @@ while True:
 cv2.destroyAllWindows()
 ```
 
-
+​	함수 정의를 마쳤으면 이제 캔버스를 만들어 그림을 그려보고 저장해 보겠다. 우선 흰색 캔버스를 만든다. 그리고 윈도우창 이름을 설정해 준다. 이다음에 cv2.setMouseCallback() 함수를 사용하는데, 기본 구조는 (윈도우창 이름, 정의한 함수, 적용할 캔버스)이다. 그리고 나머지는 opencv와 동일한데, 나는 내가 그린 영상을 저장하기 위해 's'를 누르면 저장이 되는 조건도 주었다. 한번 실행해 보자.
 
 
 
@@ -353,13 +351,16 @@ img = np.zeros((480, 640), np.uint8)
 cv2.namedWindow('image')
 
 cv2.createTrackbar('level', 'image', 50, 255, call_trackbar)
-# 바의 이름, 윈도우 이름, 위치 초기값, max(255), 함수
 
 cv2.imshow('image', img)
 
 cv2.waitKey()
 cv2.destroyAllWindows()
 ```
+
+​	트랙바는 일종의 tool 같은 건데, 영상의 intensity를 조절할 수 있는 tool이다. cv2.createTrackbar() 함수를 사용하며, 이 역시 사전에 def를 미리 정의해야 한다. 함수 정의는 매우 간단하다. img의 이미지 전체를 위치값으로 받고 imshow() 하면 된다.
+
+​	그럼 캔버스를 만들어서 확인해 보자. zeros()로 640 * 480 사이즈의 검정 캔버스를 만들고 opencv 코드를 입력해 주었다. createTrackbar() 함수의 기본 구조는 (트랙바 이름, 윈도우창 이름, 트랙바 초기값 위치, max, 정의한 함수)이다. 나는 트랙바의 이름을 'level'로 지정해 주었고, 초기값을 50, max를 255로 지정했다. 이렇게 실행하면 img 파일 상단에 트랙바가 생긴 것을 확인할 수 있을 것이고, 화면 밝기 조절도 할 수 있다.
 
 
 
@@ -384,3 +385,4 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 ```
 
+​	이 코드는 트랙바를 alpha channel 영상에 적용한 것이다. 
