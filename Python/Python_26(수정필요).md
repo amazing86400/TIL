@@ -21,11 +21,15 @@ import cv2
 import sys
 ```
 
+​	영상을 다루는 기본 라이브러리는 위와 같다.
+
 
 
 ---
 
 
+
+### Histogram
 
 ```python
 # opencv에서 히스토그램을 구하는 방법
@@ -45,6 +49,8 @@ cv2.destroyAllWindows()
 ```
 
 
+
+### RGB histogram
 
 ```python
 src = cv2.imread('./fig/lenna.bmp')
@@ -67,6 +73,8 @@ cv2.destroyAllWindows()
 
 
 
+### Normalization
+
 ```python
 # normalization
 
@@ -88,6 +96,8 @@ cv2.destroyAllWindows()
 ```
 
 
+
+### equalization
 
 ```python
 # 컬러 영상 equal
