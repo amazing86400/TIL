@@ -79,3 +79,5 @@
 - [24 open cv basic](https://github.com/amazing86400/TIL/blob/master/Python/Python_24.md)
 - [25 open cv secondary](https://github.com/amazing86400/TIL/blob/master/Python/Python_25.md)
 - [27 Python list 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md)
+- [28 Dictionary 활용 영어단어장 만들기](https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md)
+
