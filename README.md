@@ -51,6 +51,12 @@
 
 
 
+**Power BI**
+
+- [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
+
+
+
 **Python**
 
 - [01 내 생일 기온 데이터 시각화하기](https://github.com/amazing86400/TIL/blob/master/Python/Python_01.md)
