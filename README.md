@@ -54,6 +54,7 @@
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
+- [02 Power BI Basic](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_02.md)
 
 
 
