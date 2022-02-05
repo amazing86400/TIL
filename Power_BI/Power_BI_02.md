@@ -1,4 +1,4 @@
-# Power BI_Base
+# Power BI_Basic
 
 
 
