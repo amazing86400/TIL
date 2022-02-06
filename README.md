@@ -28,6 +28,7 @@
 - [07 분석 기획](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_1.md)
 - [08 분석 방법론](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_2.md)
 - [09 분석 방법론 절차](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_3.md)
+- [10 분석 과제 도출 방법](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_4.md)
 
 
 
