@@ -27,6 +27,7 @@
 - [06 Data Science](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_6.md)
 - [07 분석 기획](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_1.md)
 - [08 분석 방법론](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_2.md)
+- [09 분석 방법론 절차](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_3.md)
 
 
 
