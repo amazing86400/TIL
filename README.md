@@ -64,6 +64,7 @@
 **R**
 
 - [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
+- [02 Data Type(데이터 형)](https://github.com/amazing86400/TIL/blob/master/R/R_02.md)
 
 
 
