@@ -61,6 +61,12 @@
 
 
 
+**R**
+
+- [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
+
+
+
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
