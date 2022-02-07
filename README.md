@@ -53,6 +53,13 @@
 
 
 
+**Machine Learning**
+
+- [01 sklearn](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_01.md)
+- [02 데이터 전처리](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_02.md)
+
+
+
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
