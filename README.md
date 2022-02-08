@@ -68,6 +68,7 @@
 - [03 vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
 - [04 matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
 - [05 array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
+- [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
 
 
 
