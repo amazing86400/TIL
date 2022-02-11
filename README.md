@@ -73,6 +73,7 @@
 - [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
 - [07 list](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
 - [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
+- [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
 
 
 
