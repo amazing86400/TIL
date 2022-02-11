@@ -67,13 +67,14 @@
 
 - [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
 - [02 Data Type(데이터 형)](https://github.com/amazing86400/TIL/blob/master/R/R_02.md)
-- [03 vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
-- [04 matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
-- [05 array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
+- [03 Vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
+- [04 Matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
+- [05 Array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
 - [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
-- [07 list](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
+- [07 List](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
 - [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
 - [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
+- [10 Dataset](https://github.com/amazing86400/TIL/blob/master/R/R_10.md)
 
 
 
