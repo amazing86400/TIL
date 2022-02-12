@@ -75,7 +75,9 @@
 - [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
 - [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
 - [10 Dataset](https://github.com/amazing86400/TIL/blob/master/R/R_10.md)
-- [11 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
+- [11 형변환](https://github.com/amazing86400/TIL/blob/master/R/R_11.md)
+- [12 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
+- [13 Package](https://github.com/amazing86400/TIL/blob/master/R/R_13.md)
 
 
 
