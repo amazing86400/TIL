@@ -31,6 +31,7 @@
 - [10 분석 과제 도출 방법](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_4.md)
 - [11 모집단 & 표본, 표본추출법, 척도, 집중화 경향 측정](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_1.md)
 - [12 데이터 퍼짐 정도, 통계 기본 용어, 사건 종류](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_2.md)
+- [13 이산형 확률분포](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_3.md)
 
 
 
