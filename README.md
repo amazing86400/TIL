@@ -53,6 +53,7 @@
 **Deep Learning**
 
 - [01 Tensorflow](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_01.md)
+- [02 Neural Network](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_02.md)
 
 
 
