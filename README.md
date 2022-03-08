@@ -54,7 +54,7 @@
 
 - [01 Tensorflow](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_01.md)
 - [02 Neural Network](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_02.md)
-- 03 이진 분류
+- [03 이진 분류](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_03.md)
 - [04 다중 분류](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_04.md)
 - [05 Colab 알집 풀기](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_05.md)
 
