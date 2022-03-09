@@ -79,24 +79,6 @@
 
 
 
-**R**
-
-- [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
-- [02 Data Type(데이터 형)](https://github.com/amazing86400/TIL/blob/master/R/R_02.md)
-- [03 Vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
-- [04 Matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
-- [05 Array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
-- [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
-- [07 List](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
-- [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
-- [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
-- [10 Dataset](https://github.com/amazing86400/TIL/blob/master/R/R_10.md)
-- [11 형변환](https://github.com/amazing86400/TIL/blob/master/R/R_11.md)
-- [12 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
-- [13 Package](https://github.com/amazing86400/TIL/blob/master/R/R_13.md)
-
-
-
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
@@ -134,4 +116,30 @@
 - [27 Python list 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md)
 - [28 Dictionary 활용 영어단어장 만들기](https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md)
 - [29 ProDS 문제1](https://github.com/amazing86400/TIL/blob/master/Python/Python_29.md)
+
+
+
+**R**
+
+- [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
+- [02 Data Type(데이터 형)](https://github.com/amazing86400/TIL/blob/master/R/R_02.md)
+- [03 Vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
+- [04 Matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
+- [05 Array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
+- [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
+- [07 List](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
+- [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
+- [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
+- [10 Dataset](https://github.com/amazing86400/TIL/blob/master/R/R_10.md)
+- [11 형변환](https://github.com/amazing86400/TIL/blob/master/R/R_11.md)
+- [12 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
+- [13 Package](https://github.com/amazing86400/TIL/blob/master/R/R_13.md)
+
+
+
+**SQL**
+
+- [01 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
+
+
 
