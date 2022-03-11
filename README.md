@@ -47,6 +47,8 @@
 - [06 원형 Queue](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_06.md)
 - [07 트리 구조](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_07.md)
 - [08 그래프](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_08.md)
+- [09 정렬(sort)](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_09.md)
+- 10 검색
 
 
 
