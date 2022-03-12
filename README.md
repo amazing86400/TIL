@@ -89,6 +89,12 @@
 
 
 
+**ProDS**
+
+- [01 확률의 개념과 특징](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md)
+
+
+
 **Python**
 
 - [01 내 생일 기온 데이터 시각화하기](https://github.com/amazing86400/TIL/blob/master/Python/Python_01.md)
