@@ -98,8 +98,8 @@
 **ProDS**
 
 - [01 확률의 개념과 특징](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md)
-- 02 베이즈 정리
-- 03 ProDs 문제
+- [02 베이즈 정리](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_02.md)
+- [03 ProDs 문제](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_03.md)
 
 
 
@@ -156,6 +156,3 @@
 **SQL**
 
 - [01 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
-
-
-
