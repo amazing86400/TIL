@@ -82,6 +82,12 @@
 
 
 
+**Pandas**
+
+- 
+
+
+
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
@@ -92,6 +98,8 @@
 **ProDS**
 
 - [01 확률의 개념과 특징](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md)
+- 02 베이즈 정리
+- 03 ProDs 문제
 
 
 
@@ -124,7 +132,6 @@
 - [25 open cv secondary](https://github.com/amazing86400/TIL/blob/master/Python/Python_25.md)
 - [27 Python list 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md)
 - [28 Dictionary 활용 영어단어장 만들기](https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md)
-- [29 ProDS 문제1](https://github.com/amazing86400/TIL/blob/master/Python/Python_29.md)
 
 
 
