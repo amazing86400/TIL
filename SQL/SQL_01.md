@@ -126,7 +126,7 @@ FROM Products
 ### 컬럼 합쳐서 나타내기(연결연산자)
 
 ```sql
-SELECT Country || City || Address FROM Customers;.
+SELECT Country || City || Address FROM Customers;
 SELECT Country|| ' ' || ' ' || City || ' ' || Address FROM Customers;
 SELECT Country|| ' ' || ' ' || City || ' ' || Address AS 주소 FROM Customers;
 ```
