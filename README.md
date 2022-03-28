@@ -173,3 +173,4 @@
 - [07 Internet vs Web](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_07.md)
 - [08 Client and Server](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_08.md)
 - [09 Web Hosting - Github](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_09.md)
+- [10 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_10.md)
