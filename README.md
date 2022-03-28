@@ -156,9 +156,10 @@
 
 **SQL**
 
-- [01 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
-- [02 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_02.md)
-- [03 조건문과 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md)
+- 01 SQL을 배워야 하는 이유
+- [02 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
+- [03 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_02.md)
+- [04 조건문과 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md)
 
 
 
