@@ -160,6 +160,7 @@
 - [02 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
 - [03 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_02.md)
 - [04 조건문과 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md)
+- [05 SQL 이론](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_05.md)
 
 
 
