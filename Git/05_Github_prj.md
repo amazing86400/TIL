@@ -38,7 +38,7 @@
 ```bash
 $ git add .
 $ git commit -m 'upload'
-$ git git checkout -b freshman
+$ git checkout -b freshman
 $ git push origin freshman
 ```
 
