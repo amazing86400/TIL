@@ -70,6 +70,7 @@
 - [03_Remote 활용하기](https://github.com/amazing86400/TIL/blob/master/Git/03_Use_remote.md)
 - [04 Git bash](https://github.com/amazing86400/TIL/blob/master/Git/04_Git_bash.md)
 - [05 Github 협업](https://github.com/amazing86400/TIL/blob/master/Git/05_Github_prj.md)
+- [06 vscode extension](https://github.com/amazing86400/TIL/blob/master/Git/06_vscode_extension.md)
 
 
 
