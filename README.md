@@ -76,7 +76,8 @@
 
 **JavaScript**
 
-- [01 HTML과 JavaScript의 만남](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
+- [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
+- [02 event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
 
 
 
