@@ -74,6 +74,12 @@
 
 
 
+**IT Knowledge**
+
+- [01 비전공자를 위한 IT 지식](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md)
+
+
+
 **JavaScript**
 
 - [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
