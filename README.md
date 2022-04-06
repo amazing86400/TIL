@@ -76,7 +76,8 @@
 
 **IT Knowledge**
 
-- [01 비전공자를 위한 IT 지식](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md)
+- [01 Intro](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md)
+- [02 파이썬 배우신 분. 이분 최소 프로그래머](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_02.md)
 
 
 
