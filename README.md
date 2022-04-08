@@ -78,6 +78,7 @@
 
 - [01 Intro](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md)
 - [02 파이썬 배우신 분. 이분 최소 프로그래머](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_02.md)
+- [03 카카오톡을 실행하면 일어나는 일들](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_03.md)
 
 
 
