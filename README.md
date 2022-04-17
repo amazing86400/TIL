@@ -80,6 +80,7 @@
 - [02 파이썬 배우신 분. 이분 최소 프로그래머](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_02.md)
 - [03 카카오톡을 실행하면 일어나는 일들](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_03.md)
 - [04 퍼블리싱을 공부하는데, 퍼블리싱이 뭔지 모르겠어요.](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_04.md)
+- [05 개발자와 소통하는 방법](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_05.md)
 
 
 
