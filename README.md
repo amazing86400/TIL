@@ -82,6 +82,7 @@
 - [04 퍼블리싱을 공부하는데, 퍼블리싱이 뭔지 모르겠어요.](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_04.md)
 - [05 개발자와 소통하는 방법](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_05.md)
 - [06 빅데이터, 데이터 전문가](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_06.md)
+- [07 남이 만들어 놓은 것을 가져오기만 하면 뭐든 만들 수 있지](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_07.md)
 
 
 
