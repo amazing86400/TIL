@@ -3,6 +3,10 @@
 
 
 ```swift
+import UIKit
+import Darwin
+import Foundation
+
 var isDarkmode : bool = true
 if isDarkmode == true{
     print("다크모드 입니다.")
