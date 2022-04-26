@@ -192,6 +192,7 @@
 - [03 enum](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_03.md)
 - [04 반복문 - for](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_04.md)
 - [05 unwrap](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_05.md)
+- [06 struct & class](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_06.md)
 
 
 
