@@ -193,6 +193,7 @@
 - [04 반복문 - for](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_04.md)
 - [05 unwrap](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_05.md)
 - [06 struct & class](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_06.md)
+- [07 프로퍼티 & 옵저버](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_07.md)
 
 
 
