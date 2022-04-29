@@ -37,3 +37,5 @@ for _ in 0..<25 {
 }
 print(randomInts)
 ```
+
+​	앞서 배운 foreach와 흡사한 개념이다. 배열과 '_' 변수를 많이 익혀두자.
