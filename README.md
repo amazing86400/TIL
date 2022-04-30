@@ -187,6 +187,7 @@
 
 **Swift**
 
+- [00 자료형](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_00.md)
 - [01 조건문 - if](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_01.md)
 - [02 반복문 - foreach](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_02.md)
 - [03 enum](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_03.md)
