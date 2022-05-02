@@ -196,6 +196,7 @@
 - [06 struct & class](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_06.md)
 - [07 프로퍼티 & 옵저버](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_07.md)
 - [08 함수 매개변수](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_08.md)
+- [09 제네릭](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_09.md)
 
 
 
