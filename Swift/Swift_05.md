@@ -1,59 +1,43 @@
-# Unwrap
+# enum
 
 
 
 ```swift
 import UIKit
+import Darwin
+import Foundation
 
-// 만약 변수가 nil이라면 즉, 값이 없다면 나는 이 변수에 90을 넣겠다.
-var someVariable : Int? = nil
-if someVariable == nil {
-    someVariable = 90
+enum School {
+    case elementary, middle, high
 }
-print(someVariable)
+let yourSchool = School.high
+print("yourSchool: \(yourSchool)")
+print("yourSchool:", yourSchool)
 
-
-// if let
-// 만약 someVariable에 값이 있다면 otherVariable에 넣어 unwrap 하겠다.
-if let otherVariable = someVariable {
-    print("언래핑 되었다. 즉 값이 있다. \(otherVariable)")
-}else{
-    print("값이 없다.")
+enum Grade : Int {
+    case first = 1
+    case second = 2
 }
+let yourGrade = Grade.second.rawValue
+print("yourGrade: \(yourGrade)")
 
-
-// 기본값
-// someVariable이 비어있으면, 즉 값이 없으면 기본값으로 10을 넣겠다
-someVariable = nil
-let myvalue = someVariable ?? 10
-print(myvalue)
-
-
-// guard let
-// 만약 값이 있으면 변수에 넣고, 없으면 return으로 반환한다.
-func unwrap(parameter: Int?){
-    print("unwrap() called")
-    guard let unWrappedParm = parameter else{
-        return
+enum SchoolDetail {
+    case elementary(name: String)
+    case middle(name: String)
+    case high(name: String)
+    
+    func getname() -> String {
+        switch self {
+        case .elementary(let name):
+            return name
+        case let .middle(name):
+            return name
+        case let .high(name):
+            return name
+        }
     }
-    print("unWrappedParm: \(unWrappedParm)")
 }
-
-var first : Int? = 30
-var second : Int? = 50
-
-print("first: \(first)")
-print("second: \(second)")
-
-unwrap(parameter: first)
-unwrap(parameter: second)
-
-var third : Int? = nil
-
-print("third: \(third)")
-unwrap(parameter: third)
+let yourSchoolName = SchoolDetail.middle(name: "문산북중학교")
+print("yourSchoolName: \(yourSchoolName.getname())")
 ```
 
-​	옵셔널이란 값이 있을 수도 없을 수도 있어 모르는 것을 의미한다. 그래서 물음표(?)를 사용한다.
-
-​	언랩핑이란 감싸져 있는 것을 벗기는 것이다. 안 벗기면 값이 'optional()'이런 식으로 나온다. 벗기는 방법에는 두 가지가 있다. 'if let'과 'guard let'이 있다.

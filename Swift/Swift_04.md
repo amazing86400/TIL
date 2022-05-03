@@ -1,41 +1,31 @@
-# 반복문 - for
+# 반복문 - foreach
 
 
 
 ```swift
 import UIKit
+import Darwin
+import Foundation
 
-// range(범위)
-// 0~5 까지 반복
-for i in 0...5 {
-    print(i)
+var myArray : [Int] = [0,1,2,3,4,5,6,7,8,9,10]
+for item in myArray{
+    print("item: \(i)")
 }
-// 0,1,2,3,4,5
 
-
-// 5보다 작은 값
-for i in 0..<5 {
-    print(i)
+// 조건 달기 - where
+for item in myArray where item > 5{
+    print("item: \(i)")
 }
-// 0,1,2,3,4
 
-
-// 5보다 작은 것 중 짝수
-for i in 0..<5 where i % 2 == 0 {
-    print(i)
+// 짝수
+for item in myArray where item % 2 == 0{
+    print("짝수: \(i)")
 }
-// 0,2,4
 
-
-// 빈 배열 만들기
-var randomInts : [Int] = []
-var randomInts : [Int] = [Int]()
-
-for _ in 0..<25 {
-    let randomNum = Int.random(in: 0...100)
-    randomInts.append(randomNum)
+// 홀수
+for item in myArray where item % 2 != 0{
+    print("홀수: \(i)")
 }
-print(randomInts)
 ```
 
-​	앞서 배운 foreach와 흡사한 개념이다. 배열과 '_' 변수를 많이 익혀두자.
+​	swift에서 배열은 자료형 타입에 '[]'를 씌우고, 인자들을 넣으면 된다. 그리고 빈 배열을 생성 시에는 똑같이 변수를 생성하는데, 괄호 안에 값을 빼주면 된다. 그리고 'where'을 통해 조건을 줄 수 있다.

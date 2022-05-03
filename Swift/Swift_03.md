@@ -1,4 +1,4 @@
-# enum
+# 조건문
 
 
 
@@ -7,37 +7,40 @@ import UIKit
 import Darwin
 import Foundation
 
-enum School {
-    case elementary, middle, high
+var isDarkmode : bool = true
+if isDarkmode == true{
+    print("다크모드 입니다.")
+}else{
+    print("다크모드가 아닙니다.")
 }
-let yourSchool = School.high
-print("yourSchool: \(yourSchool)")
-print("yourSchool:", yourSchool)
 
-enum Grade : Int {
-    case first = 1
-    case second = 2
+// 가장 쉬운 구문
+if isDarkmode{
+    print("다크모드 입니다.")
+}else{
+    print("다크모드가 아닙니다.")
 }
-let yourGrade = Grade.second.rawValue
-print("yourGrade: \(yourGrade)")
 
-enum SchoolDetail {
-    case elementary(name: String)
-    case middle(name: String)
-    case high(name: String)
-    
-    func getname() -> String {
-        switch self {
-        case .elementary(let name):
-            return name
-        case let .middle(name):
-            return name
-        case let .high(name):
-            return name
-        }
-    }
+if isDarkmode != false{
+    print("다크모드 입니다.")
+}else{
+    print("다크모드가 아닙니다.")
 }
-let yourSchoolName = SchoolDetail.middle(name: "문산북중학교")
-print("yourSchoolName: \(yourSchoolName.getname())")
+
+if !isDarkmode{
+    print("다크모드 입니다.")
+}else{
+    print("다크모드 입니다.")
+}
+
+// 심화 구문
+var title : String = isDarkmode == true ? "다크모드 입니다." : "다크모드가 아닙니다."
+print("title: \(title)")
+
+var title : String = isDarkmode ? "다크모드 입니다." : "다크모드가 아닙니다."
+print("title: \(title)")
+
+var title : String = !isDarkmode ? "다크모드가 아닙니다." : "다크모드 입니다."
+print("title: \(title)")
 ```
 

@@ -1,45 +1,41 @@
-# Struct & Class
+# 반복문 - for
 
 
 
 ```swift
-import UIkit
+import UIKit
 
-
-// struct
-struct youtubeSturct {
-    var name : String
-    var subs : Int
+// range(범위)
+// 0~5 까지 반복
+for i in 0...5 {
+    print(i)
 }
-
-var shin = yougtubeSturct(name:"신대리", subs:1234)
-var shinkey = shin
-print(shinkey.name)
-
-// 이름바꾸기
-shinkey.name = "신과장"
-print(shinkey.name)
-print(shin.name)
+// 0,1,2,3,4,5
 
 
-// class
-class youtubeclass {
-    var name : String
-    var subs : Int
-    init(name:String, subs:Int){
-        self.name = name
-        self.subs = subs
-    }
+// 5보다 작은 값
+for i in 0..<5 {
+    print(i)
 }
+// 0,1,2,3,4
 
-var shin = youtubeclass(name:"신대리", subs:1234)
-var shinkey = shin
-print(shinkey.name)
 
-// 이름바꾸기
-shinkey.name = "신과장"
-print(shinkey.name)
-print(shin.name)
+// 5보다 작은 것 중 짝수
+for i in 0..<5 where i % 2 == 0 {
+    print(i)
+}
+// 0,2,4
+
+
+// 빈 배열 만들기
+var randomInts : [Int] = []
+var randomInts : [Int] = [Int]()
+
+for _ in 0..<25 {
+    let randomNum = Int.random(in: 0...100)
+    randomInts.append(randomNum)
+}
+print(randomInts)
 ```
 
-​	Struct와 Class 모두 데이터 덩어리(집합)을 의미한다. 기능은 둘 다 비슷하다. 하지만 큰 차이가 있다. Struct는 값이 따로 변경되며 프린트의 사본을 만드는 느낌이고, Class는 서로 연동되어 값이 함께 변경이 된다. 구글의 docs 느낌이다. 그리고 클래스에서 init을 하는 이유는 생성자 때문인데, 이는 데이터를 메모리에 올리기 위해 하는 작업이다.
+​	앞서 배운 foreach와 흡사한 개념이다. 배열과 '_' 변수를 많이 익혀두자.
