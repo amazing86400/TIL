@@ -87,13 +87,6 @@
 
 
 
-**JavaScript**
-
-- [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
-- [02 event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
-
-
-
 **Machine Learning**
 
 - [01 sklearn](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_01.md)
@@ -209,7 +202,13 @@
 
 
 
-**Web_HTML**
+**Web CSS**
+
+- [01 CSS의 등장](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md)
+
+
+
+**Web HTML**
 
 - [01 HTML코딩과 실습환경 준비](https://github.com/amazing86400/TIL/blob/master/Web/Web_01.md)
 - [02 TAG 기본문법](https://github.com/amazing86400/TIL/blob/master/Web/Web_02.md)
@@ -223,3 +222,13 @@
 - [10 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_10.md)
 - [11 동영상 삽입](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_11.md)
 - [12 SPA](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_12.md)
+
+
+
+**Web JavaScript**
+
+- [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
+- [02 event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
+
+
+
