@@ -205,6 +205,7 @@
 **Web CSS**
 
 - [01 CSS의 등장](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md)
+- [02 CSS 기본 문법](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_02.md)
 
 
 
@@ -229,6 +230,3 @@
 
 - [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
 - [02 event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
-
-
-
