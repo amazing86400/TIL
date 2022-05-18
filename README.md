@@ -211,6 +211,7 @@
 - [05 CSS BOX Model](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_05.md)
 - [06 박스 모델 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_06.md)
 - [07 Grid 소개](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_07.md)
+- [08 Grid 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_08.md)
 
 
 
