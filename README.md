@@ -214,6 +214,7 @@
 - [08 Grid 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_08.md)
 - [09 Media Query](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_09.md)
 - [10 CSS의 재사용(link)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_10.md)
+- [11 Grid로 menu 오른쪽 배치하기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_11.md)
 
 
 
