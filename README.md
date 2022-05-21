@@ -205,9 +205,9 @@
 **Web CSS**
 
 - [01 CSS의 등장](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md)
-- [02 CSS 기본 문법](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_02.md)
-- [03 Property 스스로 알아내기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_03.md)
-- [04 선택자의 기본](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_04.md)
+- [02 CSS 기본 문법 - 속성 활용](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_02.md)
+- [03 Property 스스로 알아내기 - font size, text align](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_03.md)
+- [04 선택자의 기본 - id, class](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_04.md)
 - [05 CSS BOX Model](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_05.md)
 - [06 박스 모델 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_06.md)
 - [07 Grid 소개](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_07.md)
@@ -215,22 +215,23 @@
 - [09 Media Query](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_09.md)
 - [10 CSS의 재사용(link)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_10.md)
 - [11 Grid로 menu 오른쪽 배치하기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_11.md)
+- [12 ul, li 태그 블릿, 기호, 점 없애기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_12.md)
 
 
 
 **Web HTML**
 
 - [01 HTML코딩과 실습환경 준비](https://github.com/amazing86400/TIL/blob/master/Web/Web_01.md)
-- [02 TAG 기본문법](https://github.com/amazing86400/TIL/blob/master/Web/Web_02.md)
-- [03 목록과 부모자식 TAG](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_03.md)
-- [04 문서 구조와 Super Star](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_04.md)
-- [05 TAG의 제왕](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_05.md)
+- [02 Tag 기본문법 - h, br, p, img](https://github.com/amazing86400/TIL/blob/master/Web/Web_02.md)
+- [03 목록과 부모자식 Tag - ul, li, ol](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_03.md)
+- [04 문서 구조와 Super Star - title, meta, head, body, html](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_04.md)
+- [05 Tag의 제왕 - a](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_05.md)
 - [06 Web Site 완성](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_06.md)
 - [07 Internet vs Web](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_07.md)
-- [08 Client and Server](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_08.md)
+- [08 Client & Server](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_08.md)
 - [09 Web Hosting - Github](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_09.md)
 - [10 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_10.md)
-- [11 동영상 삽입](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_11.md)
+- [11 동영상 삽입 - ifram](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_11.md)
 - [12 SPA](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_12.md)
 
 
