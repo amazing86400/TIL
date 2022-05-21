@@ -1,7 +1,7 @@
 ## TIL
 
 - Today I Learned
-- 좋은 빅데이터 분석 전문가가 되기 위한 나만의 책이다.
+- 좋은 개발자가 되기 위한 나만의 책이다.
 - 하루 동안 내가 학습한 내용이나 개발 관련 경험을 기록한다.
 
 
@@ -233,6 +233,7 @@
 - [10 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_10.md)
 - [11 동영상 삽입 - ifram](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_11.md)
 - [12 SPA](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_12.md)
+- [13 dl, dt, dd](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_13.md)
 
 
 
