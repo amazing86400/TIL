@@ -216,6 +216,8 @@
 - [10 CSS의 재사용(link)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_10.md)
 - [11 Grid로 menu 오른쪽 배치하기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_11.md)
 - [12 ul, li 태그 블릿, 기호, 점 없애기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_12.md)
+- [13 button](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_13.md)
+- [14 display(property)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_14.md)
 
 
 
