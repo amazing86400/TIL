@@ -245,3 +245,4 @@
 - [02 Event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
 - [03 CDN이란?](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_03.md)
 - [04 DataType - Int, String](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_04.md)
+- [05 웹브라우저 제어](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_05.md)
