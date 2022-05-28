@@ -247,3 +247,4 @@
 - [04 DataType - Int, String](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_04.md)
 - [05 웹브라우저 제어](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_05.md)
 - [06 조건문](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_06.md)
+- [07 Refactoring](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_07.md)
