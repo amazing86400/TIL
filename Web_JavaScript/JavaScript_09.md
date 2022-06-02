@@ -58,6 +58,18 @@ while(i < alist.length){
 
 
 
+```js
+var alist = document.querySelectorAll('a');
+var i = 0;
+while(i < alist.length){
+    console.log(alist[i])
+    i++;}
+```
+
+​	위에 while문 예제와 같은 내용의 for 반복문이다.
+
+
+
 ---
 
 
