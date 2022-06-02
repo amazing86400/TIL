@@ -97,3 +97,34 @@ while(i < alist.length){
 ```
 
 ​	for of문은 배열의 요소들을 반복하여 반환한다. 위 두 예제 코드는 모두 동일한 값을 반환하며, 배열의 값이 계속해서 변해도 변하는 대로 결과를 반환받도록 코딩을 했다.
+
+
+
+---
+
+
+
+### 실습 코드에 적용
+
+```html
+<input type="button" value="GoodNight" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'GoodNight'){
+      target.style.background = 'black';
+      target.style.color = 'white';
+      this.value = 'GoodMorning';
+      var list = document.querySelectorAll('a');
+      for(i=0; i<list.length; i++){
+        list[i].style.color='yellow';
+      }
+    }else{
+      target.style.background = 'white';
+      target.style.color = 'black';
+      this.value = 'GoodNight';
+      var list = document.querySelectorAll('a');
+      for(i=0; i<list.length; i++){
+        list[i].style.color='blue';}
+    }">
+```
+
+​	기존에 있던 input 버튼에 반복문을 추가하여 a 링크의 글자색이 변하도록 효과를 주었다.
