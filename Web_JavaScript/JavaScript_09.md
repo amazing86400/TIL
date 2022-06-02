@@ -23,6 +23,18 @@
 
 
 
+```js
+var alist = document.querySelectorAll('a');
+var i = 0;
+while(i < alist.length){
+    console.log(alist[i])
+    i++;}
+```
+
+​	또 다른 예시이다. 홈페이지 내 모든 `<a>`태그에 관하여 반복문을 돌려 모두 가져올 수 있도록 했다.
+
+
+
 ---
 
 
