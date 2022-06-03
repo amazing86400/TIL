@@ -128,3 +128,25 @@ while(i < alist.length){
 ```
 
 ​	기존에 있던 input 버튼에 반복문을 추가하여 a 링크의 글자색이 변하도록 효과를 주었다.
+
+
+
+---
+
+
+
+### 구구단 - 반복문 활용
+
+```html
+<script>
+    function gugudan(){
+        for(var x = 2; x < 10; x++){
+            document.write(x+"단 출력 시작!<br>");
+            for(var y = 1; y < 10; y++){
+                document.write(x+"X"+y+"="+x*y+"<br>")
+            }
+        }
+    }
+    gugudan();
+</script>
+```
