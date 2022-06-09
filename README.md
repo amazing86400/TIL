@@ -84,6 +84,7 @@
 - [06 빅데이터, 데이터 전문가](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_06.md)
 - [07 남이 만들어 놓은 것을 가져오기만 하면 뭐든 만들 수 있지](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_07.md)
 - [08 디자인, 기획 이건 꼭 살펴보자](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_08.md)
+- [09 IT 마이그레이션](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_09.md)
 
 
 
