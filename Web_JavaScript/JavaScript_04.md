@@ -56,3 +56,24 @@
 3. 문자를 **소문자**로 치환할 때는 `toLowerCase()`를 사용한다.
 4. `indexOf()`는 문자열에서 주어진 값과 일치하는 첫 번째 인덱스를 반환한다. 일치하는 값이 없으면 '-1'을 반환한다.
 5. 문자열에서 공백을 없애고자 할때는 `trim()`을 사용한다.
+
+
+
+----
+
+
+
+### type of
+
+```js
+typeof 10; // number
+typeof 'apple' // string
+
+var num = 1000;
+typeof num; // number
+
+var str = 'Javascript';
+typeof str; // string
+```
+
+​	typeof 연산자는 피연산자의 타입을 반환하는 피연산자가 단 하나뿐인 연산자다. typeof를 통해 변수의 타입도 확인할 수 있다.
