@@ -256,6 +256,10 @@
 - [10 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_10.md)
 - [11 객체](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_11.md)
 - [12 공부 TIP!](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_12.md)
+- [13 Type Conversion - 타입 변환](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_13.md)
+- [14 Operator - 연산자](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_14.md)
+- [15 String Method - 문자열 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_15.md)
+- [16 Document 객체](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_16.md)
 
 
 
