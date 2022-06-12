@@ -77,3 +77,28 @@ typeof str; // string
 ```
 
 ​	typeof 연산자는 피연산자의 타입을 반환하는 피연산자가 단 하나뿐인 연산자다. typeof를 통해 변수의 타입도 확인할 수 있다.
+
+
+
+---
+
+
+
+### null & undefined
+
+```js
+var num; // 초기화하지 않았으므로 undefined 값을 반환
+var str = null; // object 타입의 null 값
+typeof secondNum; // 정의되지 않은 변수에 접급하면 undefined 값 반환
+```
+
+​	자바스크립트에서 null이란 object 타입이며, 아직 **'값'이 정해지지 않은 것**을 의미한다. 또한, undefined란 null 과는 달리 **'타입'이 정해지지 않은 것**을 의미한다. 따라서 자바스크립트에서 undefined는 초기화되지 않은 변수나 존재하지 않는 값에 접근할 때 반환된다.
+
+
+
+```js
+null == undefined; // true
+null === undefined; // false
+```
+
+​	null과 undefined는 동등 연산자(==)와 일치 연산자(===)로 비교할 때 그 결과값이 다르므로 주의하자. null과 undefined는 타입을 제외하면 같은 의미지만, 타입이 다르므로 일치하지는 않는다.
