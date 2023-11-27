@@ -14,22 +14,22 @@
 ## Part
 
 <details>
-<summary>**ADsP**</summary>
-- [01 데이터의 이해](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md)
-- [02 기업 내부 데이터베이스 솔루션](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md)
-- [03 빅데이터 정의](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md)
-- [04 빅데이터 가치 선정 및 활용](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_4.md)
-- [05 빅데이터 위기 요인과 통제 방안](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_5.md)
-- [06 Data Science](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_6.md)
-- [07 분석 기획](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_1.md)
-- [08 분석 방법론](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_2.md)
-- [09 분석 방법론 절차](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_3.md)
-- [10 분석 과제 도출 방법](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_02_4.md)
-- [11 모집단 & 표본, 표본추출법, 척도, 집중화 경향 측정](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_1.md)
-- [12 데이터 퍼짐 정도, 통계 기본 용어, 사건 종류](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_2.md)
-- [13 이산형 확률분포](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_3.md)
-- [14 연속형 확률분포](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_4.md)
-- [15 통계적 추론의 분류](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_5.md)
+<summary>ADsP</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md">01 데이터의 이해</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md">02 기업 내부 데이터베이스 솔루션</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md">03 빅데이터 정의</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_4.md">04 빅데이터 가치 선정 및 활용</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_5.md">05 빅데이터 위기 요인과 통제 방안</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_6.md">06 Data Science</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_7.md">07 분석 기획</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_8.md">08 분석 방법론</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_9.md">09 분석 방법론 절차</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_10.md">10 분석 과제 도출 방법</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_11.md">11 모집단 & 표본, 표본추출법, 척도, 집중화 경향 측정</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_12.md">12 데이터 퍼짐 정도, 통계 기본 용어, 사건 종류</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_13.md">13 이산형 확률분포</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_14.md">14 연속형 확률분포</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_15.md">15 통계적 추론의 분류</a><br>
 </details>
 
 **Algorithm**
