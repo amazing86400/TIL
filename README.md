@@ -9,7 +9,6 @@
 - contributions를 초록색으로 채우고자 대충 기록하는 일이 없도록 한다.
 - 학습한 내용을 온전히 내 것으로 만들고자 기록한다.
 - 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
-- 폴더와 파일명은 영문으로 작성한다.
 
 ## Part
 
@@ -165,20 +164,20 @@
 
 <details>
 <summary><strong>Swift</strong></summary>
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>기초 문법</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/01_자료형.md">01 자료형</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/02_기본 문법.md">02 Swift 기본 문법</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/03_조건문(if).md">03 조건문(if)</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/04_반복문(foreach).md">04 반복문(foreach)</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/05_enum.md">05 enum</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/06_반복문(for).md">06 반복문(for)</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/07_unwrap.md">07 unwrap</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/08_struct & class.md">08 struct & class</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/09_프로퍼티 & 옵저버.md">09 프로퍼티 & 옵저버</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/10_함수.md">10 함수</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/11_제네릭.md">11 제네릭</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/12_클로저.md">12 클로저</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/13_옵셔널.md">13 옵셔널</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>기초 문법</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/01_자료형.md">01 자료형</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/03_조건문(if).md">03 조건문(if)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/02_기본 문법.md">02 Swift 기본 문법</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/04_반복문(foreach).md">04 반복문(foreach)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/06_반복문(for).md">06 반복문(for)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/05_enum.md">05 enum</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/07_unwrap.md">07 unwrap</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/08_struct & class.md">08 struct & class</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/09_프로퍼티 & 옵저버.md">09 프로퍼티 & 옵저버</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/10_함수.md">10 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/11_제네릭.md">11 제네릭</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/12_클로저.md">12 클로저</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/13_옵셔널.md">13 옵셔널</a><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;<strong>자료구조</strong>
 
@@ -191,61 +190,63 @@
 
 <details>
 <summary><strong>WEB CSS</strong></summary>
-&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md">01 CSS의 등장</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_01.md">01 CSS의 등장</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_02.md">02 CSS 기본 문법(속성 활용)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_03.md">03 Property 스스로 알아내기(font size, text align)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_04.md">04 선택자의 기본(id, class)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_05.md">05 CSS BOX Model</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_06.md">06 박스 모델 써먹기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_07.md">07 Grid 소개</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_08.md">08 Grid 써먹기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_09.md">09 Media Query</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_10.md">10 CSS의 재사용(link)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_11.md">11 Grid로 menu 오른쪽 배치하기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_12.md">12 ul, li 태그 블릿, 기호, 점 없애기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_13.md">13 button</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_CSS/CSS_14.md">14 display(property)</a><br>
 </details>
 
-- [02 CSS 기본 문법 - 속성 활용](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_02.md)
-- [03 Property 스스로 알아내기 - font size, text align](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_03.md)
-- [04 선택자의 기본 - id, class](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_04.md)
-- [05 CSS BOX Model](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_05.md)
-- [06 박스 모델 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_06.md)
-- [07 Grid 소개](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_07.md)
-- [08 Grid 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_08.md)
-- [09 Media Query](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_09.md)
-- [10 CSS의 재사용(link)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_10.md)
-- [11 Grid로 menu 오른쪽 배치하기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_11.md)
-- [12 ul, li 태그 블릿, 기호, 점 없애기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_12.md)
-- [13 button](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_13.md)
-- [14 display(property)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_14.md)
+<details>
+<summary><strong>WEB HTML</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_01.md">01 HTML코딩과 실습환경 준비</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_02.md">02 Tag 기본문법(h, br, p, img)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_03.md">03 목록과 부모자식 Tag(ul, li, ol)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_04.md">04 H문서 구조와 Super Star(title, meta, head, body, html)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_05.md">05 Tag의 제왕(a)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_06.md">06 Web Site 완성</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_07.md">07 Internet vs Web</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_08.md">08 Client & Server</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_09.md">09 Web Hosting - Github</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_10.md">10 써먹기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_11.md">11 동영상 삽입(ifram)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_12.md">12 SPA</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_13.md">13 dl, dt, dd</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_14.md">14 랜딩페이지</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_HTML/Web_15.md">15 input</a><br>
+</details>
 
-**Web HTML**
+<details>
+<summary><strong>WEB JavaScript</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_01.md">01 script</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_02.md">02 Event</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_03.md">03 CDN이란?</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_04.md">04 DataType(Int, String)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_05.md">05 웹브라우저 제어</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_06.md">06 조건문</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_07.md">07 Refactoring</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_08.md">08 배열 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_09.md">09 반복문</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_10.md">10 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_11.md">11 객체</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_12.md">12 공부 TIP!</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_13.md">13 Type Conversion(타입 변환)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_14.md">14 Operator(연산자)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_15.md">15 String Method(문자열 함수)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_JavaScript/JavaScript_16.md">16 Document 객체</a><br>
+</details>
 
-- [01 HTML코딩과 실습환경 준비](https://github.com/amazing86400/TIL/blob/master/Web/Web_01.md)
-- [02 Tag 기본문법 - h, br, p, img](https://github.com/amazing86400/TIL/blob/master/Web/Web_02.md)
-- [03 목록과 부모자식 Tag - ul, li, ol](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_03.md)
-- [04 문서 구조와 Super Star - title, meta, head, body, html](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_04.md)
-- [05 Tag의 제왕 - a](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_05.md)
-- [06 Web Site 완성](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_06.md)
-- [07 Internet vs Web](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_07.md)
-- [08 Client & Server](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_08.md)
-- [09 Web Hosting - Github](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_09.md)
-- [10 써먹기](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_10.md)
-- [11 동영상 삽입 - ifram](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_11.md)
-- [12 SPA](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_12.md)
-- [13 dl, dt, dd](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_13.md)
-- [14 랜딩페이지](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_14.md)
-- [15 `<input>`](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_15.md)
-
-**Web JavaScript**
-
-- [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
-- [02 Event](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_02.md)
-- [03 CDN이란?](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_03.md)
-- [04 DataType - Int, String](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_04.md)
-- [05 웹브라우저 제어](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_05.md)
-- [06 조건문](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_06.md)
-- [07 Refactoring](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_07.md)
-- [08 배열 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_08.md)
-- [09 반복문](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_09.md)
-- [10 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_10.md)
-- [11 객체](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_11.md)
-- [12 공부 TIP!](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_12.md)
-- [13 Type Conversion - 타입 변환](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_13.md)
-- [14 Operator - 연산자](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_14.md)
-- [15 String Method - 문자열 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_15.md)
-- [16 Document 객체](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_16.md)
-
-**Web jQuery**
-
-- [01 jQuery](https://github.com/amazing86400/TIL/blob/master/Web_jQuery/jQuery_01.md)
-- [02 CSS](https://github.com/amazing86400/TIL/blob/master/Web_jQuery/jQuery_02.md)
+<details>
+<summary><strong>WEB jQuery</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_jQuery/jQuery_01.md">01 jQuery</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./WEB_jQuery/jQuery_02.md">02 CSS</a><br>
+</details>
