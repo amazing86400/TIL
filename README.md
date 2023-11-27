@@ -14,7 +14,7 @@
 ## Part
 
 <details>
-<summary>ADsP</summary>
+<summary><strong>ADsP</strong></summary>
 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md">01 데이터의 이해</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md">02 기업 내부 데이터베이스 솔루션</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md">03 빅데이터 정의</a><br>
@@ -32,153 +32,168 @@
 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_15.md">15 통계적 추론의 분류</a><br>
 </details>
 
-**Algorithm**
+<details>
+<summary><strong>Algorithm</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_01.md">01 자료 구조와 알고리즘</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_02.md">02 선형 리스트</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_03.md">03 단순 연결 리스트</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_04.md">04 Stack</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_05.md">05 Queue</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_06.md">06 원형 Queue</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_07.md">07 트리 구조</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_08.md">08 그래프</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_09.md">09 정렬(sort)</a><br>
+</details>
 
-- [01 자료 구조와 알고리즘](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_01.md)
-- [02 선형 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_02.md)
-- [03 단순 연결 리스트](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_03.md)
-- [04 Stack](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_04.md)
-- [05 Queue](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_05.md)
-- [06 원형 Queue](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_06.md)
-- [07 트리 구조](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_07.md)
-- [08 그래프](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_08.md)
-- [09 정렬(sort)](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_09.md)
-- 10 검색
+<details>
+<summary><strong>Deep Learning</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_01.md">01 Tensorflow</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_02.md">02 Neural Network</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_03.md">03 이진 분류</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_04.md">04 다중 분류</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_05.md">05 Colab 알집 풀기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_06.md">06 CAM</a><br>
+</details>
 
-**Deep Learning**
+<details>
+<summary><strong>Git</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md">01 CLI</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/02_Git_base.md">02 Git 사전 지식</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/03_Use_remote.md">03 Remote 활용하기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/04_Git_bash.md">04 Git bash</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/05_Github_prj.md">05 Github 협업</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Git/06_vscode_extension.md">06 vscode extension</a><br>
+</details>
 
-- [01 Tensorflow](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_01.md)
-- [02 Neural Network](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_02.md)
-- [03 이진 분류](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_03.md)
-- [04 다중 분류](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_04.md)
-- [05 Colab 알집 풀기](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_05.md)
-- [06 CAM](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_06.md)
+<details>
+<summary><strong>IT Knowledge</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md">01 Intro</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_02.md">02 파이썬 배우신 분. 이분 최소 프로그래머</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_03.md">03 카카오톡을 실행하면 일어나는 일들</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_04.md">04 퍼블리싱을 공부하는데, 퍼블리싱이 뭔지 모르겠어요.</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_05.md">05 개발자와 소통하는 방법</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_06.md">06 빅데이터, 데이터 전문가</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_07.md">07 남이 만들어 놓은 것을 가져오기만 하면 뭐든 만들 수 있지</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_08.md">08 디자인, 기획 이건 꼭 살펴보자</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_09.md">09 IT 마이그레이션</a><br>
+</details>
 
-**Git**
+<details>
+<summary><strong>Machine Learning</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_01.md">01 sklearn</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_02.md">02 데이터 전처리</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_03.md">03 기계 학습(ML)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_04.md">04 상관분석</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_05.md">05 회귀분석</a><br>
+</details>
 
-- [01_CLI](https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md)
-- [02_Git 사전 지식](https://github.com/amazing86400/TIL/blob/master/Git/02_Git_base.md)
-- [03_Remote 활용하기](https://github.com/amazing86400/TIL/blob/master/Git/03_Use_remote.md)
-- [04 Git bash](https://github.com/amazing86400/TIL/blob/master/Git/04_Git_bash.md)
-- [05 Github 협업](https://github.com/amazing86400/TIL/blob/master/Git/05_Github_prj.md)
-- [06 vscode extension](https://github.com/amazing86400/TIL/blob/master/Git/06_vscode_extension.md)
+<details>
+<summary><strong>Pandas</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Pandas/Pandas_01.md">01 판다스 자료구조</a><br>
+</details>
 
-**IT Knowledge**
+<details>
+<summary><strong>Power BI</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md">01 Power BI intro</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_02.md">02 Power BI Basic</a><br>
+</details>
 
-- [01 Intro](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_01.md)
-- [02 파이썬 배우신 분. 이분 최소 프로그래머](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_02.md)
-- [03 카카오톡을 실행하면 일어나는 일들](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_03.md)
-- [04 퍼블리싱을 공부하는데, 퍼블리싱이 뭔지 모르겠어요.](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_04.md)
-- [05 개발자와 소통하는 방법](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_05.md)
-- [06 빅데이터, 데이터 전문가](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_06.md)
-- [07 남이 만들어 놓은 것을 가져오기만 하면 뭐든 만들 수 있지](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_07.md)
-- [08 디자인, 기획 이건 꼭 살펴보자](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_08.md)
-- [09 IT 마이그레이션](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_09.md)
+<details>
+<summary><strong>ProDS</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md">01 확률의 개념과 특징</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_02.md">02 베이즈 정리</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_03.md">03 ProDs 문제</a><br>
+</details>
 
-**Machine Learning**
+<details>
+<summary><strong>Python</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_01.md">01 내 생일 기온 데이터 시각화하기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_02.md">02 numpy</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_03.md">03 웹 페이지 데이터 엑셀로 저장하기</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_04.md">04 if문</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_05.md">05 while문</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_06.md">06 for문</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_07.md">07 random 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_08.md">08 조건문 연습문제</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_09.md">09 Pandas_Series</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_10.md">10 Pandas read & save</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_11.md">11 Melon Chart web crawling</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_12.md">12 Genie Chart web crawling & Data 통합</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_13.md">13 Youtube Rank web crawling</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_14.md">14 Youtube Rank Data 시각화(pie chart)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_15.md">15 방한 외래관광객 분석</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_16.md">16 방한 외래관광객 시각화 분석(시계열 그래프 & 히트맵)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_17.md">17 Instagram web crawling</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_18.md">18 중복 내용 제거 후 excel 통합 저장</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_19.md">19 Instagram web crawling 시각화(막대그래프 & Word Cloud)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_20.md">20 Instagram KAKAO API</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_21.md">21 Instagram 핫플레이스 folium 지도 시각화</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_22.md">22 Instagram 특정 단어가 포함된 게시물 추출</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_23.md">23 open cv intro</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_24.md">24 open cv basic</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_25.md">25 open cv secondary</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_26.md">26 numpy</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md">27 Python list 연습문제</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md">28 Dictionary 활용 영어단어장 만들기</a><br>
+</details>
 
-- [01 sklearn](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_01.md)
-- [02 데이터 전처리](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_02.md)
-- [03 기계 학습(ML)](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_03.md)
-- [04 상관분석](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_04.md)
-- [05 회귀분석](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_05.md)
+<details>
+<summary><strong>R</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_01.md">01 기초 연산</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_02.md">02 Data Type(데이터 형)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_03.md">03 Vector</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_04.md">04 Matrix</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_05.md">05 Array</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_06.md">06 data.frame</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_07.md">07 List</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_08.md">08 외부데이터 사용</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_09.md">09 data.frame 핸들링</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_10.md">10 Dataset</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_11.md">11 형변환</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_12.md">12 Apply 계열 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/R/R_13.md">13 Package</a><br>
+</details>
 
-**Pandas**
+<details>
+<summary><strong>SQL</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md">01 SQL을 배워야 하는 이유</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/SQL/SQL_02.md">02 SQL 기초</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md">03 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/SQL/SQL_04.md">04 조건문과 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/SQL/SQL_05.md">05 SQL 이론</a><br>
+</details>
 
-- [01 판다스 자료구조](https://github.com/amazing86400/TIL/blob/master/Pandas/Pandas_01.md)
+<details>
+<summary><strong>Swift</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>기초 문법</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/01_자료형.md">01 자료형</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/02_기본 문법.md">02 Swift 기본 문법</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/03_조건문(if).md">03 조건문(if)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/04_반복문(foreach).md">04 반복문(foreach)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/05_enum.md">05 enum</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/06_반복문(for).md">06 반복문(for)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/07_unwrap.md">07 unwrap</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/08_struct & class.md">08 struct & class</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/09_프로퍼티 & 옵저버.md">09 프로퍼티 & 옵저버</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/10_함수.md">10 함수</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/11_제네릭.md">11 제네릭</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/12_클로저.md">12 클로저</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/13_옵셔널.md">13 옵셔널</a><br>
 
-**Power BI**
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>자료구조</strong>
 
-- [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
-- [02 Power BI Basic](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_02.md)
+</details>
 
-**ProDS**
+<details>
+<summary><strong>UIUX</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/UIUX/UIUX_01.md">01 UI와 UX의 차이점</a><br>
+</details>
 
-- [01 확률의 개념과 특징](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md)
-- [02 베이즈 정리](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_02.md)
-- [03 ProDs 문제](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_03.md)
+<details>
+<summary><strong>WEB CSS</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md">01 CSS의 등장</a><br>
+</details>
 
-**Python**
-
-- [01 내 생일 기온 데이터 시각화하기](https://github.com/amazing86400/TIL/blob/master/Python/Python_01.md)
-- [02 numpy](https://github.com/amazing86400/TIL/blob/master/Python/Python_02.md)
-- [03 웹 페이지 데이터 엑셀로 저장하기](https://github.com/amazing86400/TIL/blob/master/Python/Python_03.md)
-- [04 if문](https://github.com/amazing86400/TIL/blob/master/Python/Python_04.md)
-- [05 while문](https://github.com/amazing86400/TIL/blob/master/Python/Python_05.md)
-- [06 for문](https://github.com/amazing86400/TIL/blob/master/Python/Python_06.md)
-- [07 random 함수](https://github.com/amazing86400/TIL/blob/master/Python/Python_07.md)
-- [08 조건문 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_08.md)
-- [09 Pandas_Series](https://github.com/amazing86400/TIL/blob/master/Python/Python_09.md)
-- [10 Pandas read & save](https://github.com/amazing86400/TIL/blob/master/Python/Python_10.md)
-- [11 Melon Chart web crawling](https://github.com/amazing86400/TIL/blob/master/Python/Python_11.md)
-- [12 Genie Chart web crawling & Data 통합](https://github.com/amazing86400/TIL/blob/master/Python/Python_12.md)
-- [13 Youtube Rank web crawling](https://github.com/amazing86400/TIL/blob/master/Python/Python_13.md)
-- [14 Youtube Rank Data 시각화(pie chart)](https://github.com/amazing86400/TIL/blob/master/Python/Python_14.md)
-- [15 방한 외래관광객 분석](https://github.com/amazing86400/TIL/blob/master/Python/Python_15.md)
-- [16 방한 외래관광객 시각화 분석(시계열 그래프 & 히트맵)](https://github.com/amazing86400/TIL/blob/master/Python/Python_16.md)
-- [17 Instagram web crawling](https://github.com/amazing86400/TIL/blob/master/Python/Python_17.md)
-- [18 중복 내용 제거 후 excel 통합 저장](https://github.com/amazing86400/TIL/blob/master/Python/Python_18.md)
-- [19 Instagram web crawling 시각화(막대그래프 & Word Cloud)](https://github.com/amazing86400/TIL/blob/master/Python/Python_19.md)
-- [20 Instagram KAKAO API](https://github.com/amazing86400/TIL/blob/master/Python/Python_20.md)
-- [21 Instagram 핫플레이스 folium 지도 시각화](https://github.com/amazing86400/TIL/blob/master/Python/Python_21.md)
-- [22 instagram 특정 단어가 포함된 게시물 추출](https://github.com/amazing86400/TIL/blob/master/Python/Python_22.md)
-- [23 open cv intro](https://github.com/amazing86400/TIL/blob/master/Python/Python_23.md)
-- [24 open cv basic](https://github.com/amazing86400/TIL/blob/master/Python/Python_24.md)
-- [25 open cv secondary](https://github.com/amazing86400/TIL/blob/master/Python/Python_25.md)
-- [27 Python list 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md)
-- [28 Dictionary 활용 영어단어장 만들기](https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md)
-
-**R**
-
-- [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
-- [02 Data Type(데이터 형)](https://github.com/amazing86400/TIL/blob/master/R/R_02.md)
-- [03 Vector](https://github.com/amazing86400/TIL/blob/master/R/R_03.md)
-- [04 Matrix](https://github.com/amazing86400/TIL/blob/master/R/R_04.md)
-- [05 Array](https://github.com/amazing86400/TIL/blob/master/R/R_05.md)
-- [06 data.frame](https://github.com/amazing86400/TIL/blob/master/R/R_06.md)
-- [07 List](https://github.com/amazing86400/TIL/blob/master/R/R_07.md)
-- [08 외부데이터 사용](https://github.com/amazing86400/TIL/blob/master/R/R_08.md)
-- [09 data.frame 핸들링](https://github.com/amazing86400/TIL/blob/master/R/R_09.md)
-- [10 Dataset](https://github.com/amazing86400/TIL/blob/master/R/R_10.md)
-- [11 형변환](https://github.com/amazing86400/TIL/blob/master/R/R_11.md)
-- [12 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
-- [13 Package](https://github.com/amazing86400/TIL/blob/master/R/R_13.md)
-
-**SQL**
-
-- [01 SQL을 배워야 하는 이유](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
-- [02 sql 기초](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
-- [03 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_02.md)
-- [04 조건문과 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md)
-- [05 SQL 이론](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_05.md)
-
-**Swift**
-
-**_기초 문법_**
-
-- [01 자료형](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_00.md)
-- [02 Swift 기본 문법](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_02.md)
-- [03 조건문 - if](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_01.md)
-- [04 반복문 - foreach](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_02.md)
-- [05 enum](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_03.md)
-- [06 반복문 - for](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_04.md)
-- [07 unwrap](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_05.md)
-- [08 struct & class](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_06.md)
-- [09 프로퍼티 & 옵저버](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_07.md)
-- [10 함수 매개변수](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_08.md)
-- [11 제네릭](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_09.md)
-- [12 클로저](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_12.md)
-- [13 옵셔널](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_13.md)
-
-**_자료구조_**
-
-**UIUX**
-
-- [01 UI와 UX의 차이점](https://github.com/amazing86400/TIL/blob/master/UIUX/UIUX_01.md)
-
-**Web CSS**
-
-- [01 CSS의 등장](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_01.md)
 - [02 CSS 기본 문법 - 속성 활용](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_02.md)
 - [03 Property 스스로 알아내기 - font size, text align](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_03.md)
 - [04 선택자의 기본 - id, class](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_04.md)
