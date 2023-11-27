@@ -164,7 +164,7 @@
 
 <details>
 <summary><strong>Swift</strong></summary>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>기초 문법</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>기초 문법</strong><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/01_자료형.md">01 자료형</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/03_조건문(if).md">03 조건문(if)</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/02_기본 문법.md">02 Swift 기본 문법</a><br>
@@ -177,9 +177,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/10_함수.md">10 함수</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/11_제네릭.md">11 제네릭</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/12_클로저.md">12 클로저</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/13_옵셔널.md">13 옵셔널</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <a href="./Swift/기초문법/13_옵셔널.md">13 옵셔널</a><br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>자료구조</strong>
+&nbsp;&nbsp;&nbsp;<strong>자료구조</strong>
 
 </details>
 
