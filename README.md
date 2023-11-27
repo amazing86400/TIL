@@ -4,8 +4,6 @@
 - 좋은 개발자가 되기 위한 나만의 책이다.
 - 하루 동안 내가 학습한 내용이나 개발 관련 경험을 기록한다.
 
-
-
 ## Role
 
 - contributions를 초록색으로 채우고자 대충 기록하는 일이 없도록 한다.
@@ -13,12 +11,11 @@
 - 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
 - 폴더와 파일명은 영문으로 작성한다.
 
-
-
 ## Part
 
-**ADsP**
-
+<details>
+<summary>**ADsP**</summary>
+<div>
 - [01 데이터의 이해](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_1.md)
 - [02 기업 내부 데이터베이스 솔루션](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_2.md)
 - [03 빅데이터 정의](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_01_3.md)
@@ -34,8 +31,8 @@
 - [13 이산형 확률분포](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_3.md)
 - [14 연속형 확률분포](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_4.md)
 - [15 통계적 추론의 분류](https://github.com/amazing86400/TIL/blob/master/ADsP/ADsP_03_5.md)
-
-
+</div>
+</details>
 
 **Algorithm**
 
@@ -50,8 +47,6 @@
 - [09 정렬(sort)](https://github.com/amazing86400/TIL/blob/master/Algorithm/Algorithm_09.md)
 - 10 검색
 
-
-
 **Deep Learning**
 
 - [01 Tensorflow](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_01.md)
@@ -61,8 +56,6 @@
 - [05 Colab 알집 풀기](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_05.md)
 - [06 CAM](https://github.com/amazing86400/TIL/blob/master/Deep_Learning/DL_06.md)
 
-
-
 **Git**
 
 - [01_CLI](https://github.com/amazing86400/TIL/blob/master/Git/01_CLI.md)
@@ -71,8 +64,6 @@
 - [04 Git bash](https://github.com/amazing86400/TIL/blob/master/Git/04_Git_bash.md)
 - [05 Github 협업](https://github.com/amazing86400/TIL/blob/master/Git/05_Github_prj.md)
 - [06 vscode extension](https://github.com/amazing86400/TIL/blob/master/Git/06_vscode_extension.md)
-
-
 
 **IT Knowledge**
 
@@ -86,8 +77,6 @@
 - [08 디자인, 기획 이건 꼭 살펴보자](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_08.md)
 - [09 IT 마이그레이션](https://github.com/amazing86400/TIL/blob/master/IT%20knowledge/IT_09.md)
 
-
-
 **Machine Learning**
 
 - [01 sklearn](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_01.md)
@@ -96,28 +85,20 @@
 - [04 상관분석](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_04.md)
 - [05 회귀분석](https://github.com/amazing86400/TIL/blob/master/Machine_Learning/ML_05.md)
 
-
-
 **Pandas**
 
 - [01 판다스 자료구조](https://github.com/amazing86400/TIL/blob/master/Pandas/Pandas_01.md)
-
-
 
 **Power BI**
 
 - [01 Power BI intro](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_01.md)
 - [02 Power BI Basic](https://github.com/amazing86400/TIL/blob/master/Power_BI/Power_BI_02.md)
 
-
-
 **ProDS**
 
 - [01 확률의 개념과 특징](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_01.md)
 - [02 베이즈 정리](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_02.md)
 - [03 ProDs 문제](https://github.com/amazing86400/TIL/blob/master/ProDS/ProDS_03.md)
-
-
 
 **Python**
 
@@ -149,8 +130,6 @@
 - [27 Python list 연습문제](https://github.com/amazing86400/TIL/blob/master/Python/Python_27.md)
 - [28 Dictionary 활용 영어단어장 만들기](https://github.com/amazing86400/TIL/blob/master/Python/Python_28.md)
 
-
-
 **R**
 
 - [01 기초 연산](https://github.com/amazing86400/TIL/blob/master/R/R_01.md)
@@ -167,8 +146,6 @@
 - [12 Apply 계열 함수](https://github.com/amazing86400/TIL/blob/master/R/R_12.md)
 - [13 Package](https://github.com/amazing86400/TIL/blob/master/R/R_13.md)
 
-
-
 **SQL**
 
 - [01 SQL을 배워야 하는 이유](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_01.md)
@@ -177,9 +154,9 @@
 - [04 조건문과 함수](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_03.md)
 - [05 SQL 이론](https://github.com/amazing86400/TIL/blob/master/SQL/SQL_05.md)
 
-
-
 **Swift**
+
+**_기초 문법_**
 
 - [01 자료형](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_00.md)
 - [02 Swift 기본 문법](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_02.md)
@@ -195,13 +172,11 @@
 - [12 클로저](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_12.md)
 - [13 옵셔널](https://github.com/amazing86400/TIL/blob/master/Swift/Swift_13.md)
 
-
+**_자료구조_**
 
 **UIUX**
 
 - [01 UI와 UX의 차이점](https://github.com/amazing86400/TIL/blob/master/UIUX/UIUX_01.md)
-
-
 
 **Web CSS**
 
@@ -219,8 +194,6 @@
 - [12 ul, li 태그 블릿, 기호, 점 없애기](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_12.md)
 - [13 button](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_13.md)
 - [14 display(property)](https://github.com/amazing86400/TIL/blob/master/Web_CSS/CSS_14.md)
-
-
 
 **Web HTML**
 
@@ -240,8 +213,6 @@
 - [14 랜딩페이지](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_14.md)
 - [15 `<input>`](https://github.com/amazing86400/TIL/blob/master/Web_HTML/Web_15.md)
 
-
-
 **Web JavaScript**
 
 - [01 `<script>`](https://github.com/amazing86400/TIL/blob/master/JavaScript/JavaScript_01.md)
@@ -260,8 +231,6 @@
 - [14 Operator - 연산자](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_14.md)
 - [15 String Method - 문자열 함수](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_15.md)
 - [16 Document 객체](https://github.com/amazing86400/TIL/blob/master/Web_JavaScript/JavaScript_16.md)
-
-
 
 **Web jQuery**
 
