@@ -1,0 +1,88 @@
+# 옵셔널 바인딩, 체이닝
+
+이번 시간에 배우는 옵셔널 바인딩과 체이닝은 이전 시간에 다룬 옵셔널 값을 안전하게 처리하기 위한 방법이다. 이 두 기법은 옵셔널에 값이 있는지 여부를 확인하고, 있다면 값을 사용는 작업을 간편하게 수행할 수 있게 해준다.
+
+옵셔널은 없음을 표현하고 싶은 게 아니라 안전함을 추구하기 위함이다. 어떤 값에 접근하려 했을 때 값이 없다면 크래쉬가 발생하기 때문이다.
+
+<br>
+
+## 옵셔널 바인딩(Optional Binding)
+
+옵셔널 바인딩은 옵셔널에 값이 있는지 확인하고, 있다면 그 값을 상수 또는 변수에 할당하는 방법이다. 옵셔널 바인딩에서 바인딩이란 것은 어떠한 것을 묶는 것을 의미하는데, 옵셔널 바인딩은 말 그대로 옵셔널 안의 값을 꺼내 잘 묶는 것을 의미한다.
+
+옵셔널 바인딩은 `if let` / `var` 키워드를 사용한다. 그리고 값을 확인하여 새로운 상수 또는 변수에 할당되는 경우 다음에 오는 중괄호(`{}`) 안의 코드를 실행한다. 값이 없는 경우에는 `else`문으로 처리를 해도 되고 안 해도 된다.
+
+```swift
+struct Option: View {
+    let me = People(name: "기범")
+    let you = People(name: "우성", petName: "초코")
+    let friend = People(name: "정민", petName: "라이카")
+
+    var body: some View {
+        VStack {
+            if let petName = me.petName {
+                Text("\(me.name)의 애완동물 이름은 \(petName) 입니다.")
+            } else {
+                Text("\(me.name)은 애완동물이 없어요")
+            } // 기범은 애완동물이 없어요.
+
+            if let petName = you.petName {
+                Text("\(you.name)의 애완동물 이름은 \(petName) 입니다.")
+            } else {
+                Text("\(you.name)은 애완동물 이름이 없어요")
+            } // 우성의 애완동물 이름은 초코 입니다.
+
+            if let petName = friend.petName {
+                Text("\(friend.name)의 애완동물 이름은 \(petName) 입니다.")
+            } else {
+                Text("\(friend.name)은 애완동물 이름이 없어요")
+            } // 정민의 애완동물 이름은 라이카 입니다.
+        }
+    }
+}
+
+struct People {
+    var name: String
+    var petName: String?
+}
+```
+
+<br>
+
+## 옵셔널 체이닝(Optional Chainig)
+
+옵셔널 체이닝은 여러 옵셔널 값을 연속적으로 접근할 때 사용하는 방법이다. 체이닝 중 하나라도 `nil` 값이 있으면 전체 결과는 `nil`이 된다. 체인은 여러 개가 엮여있는 형태를 의미하는데, 예를 들어 구조체가 서로 엮여서 사용되는 경우 매번 옵셔널 바인딩을 사용하기 힘들기 때문에 이를 체인으로 엮어서 값을 처리하는 방법이다.
+
+옵셔널 체이닝은 옵셔널 타입에 물음표(?)와 프로퍼티를 온점(.)으로 엮어 사용한다. 아래 예제는 같은 값을 출력하는데, 각각 옵셔널 체이닝과 옵셔널 바인딩으로 구현했다. 옵셔널 바인딩의 경우 `if let`을 두 번 사용하며 길이가 긴 반면, 옵셔널 체이닝은 `if let`을 한 번에 사용하여 처리한 것을 확인할 수 있다.
+
+```swift
+struct Option: View {
+    let me: People? = People(name: "기범", mbti: MBTI(name: "INFJ"))
+
+    var body: some View {
+        VStack {
+            // 옵셔널 체이닝
+            if let meMbtiName = me?.mbti?.name {
+                Text("MBTI는 \(meMbtiName) 입니다.")
+            }
+
+            // 옵셔널 바인딩
+            if let me = me {
+                if let mbti = me.mbti {
+                    Text("MBTI는 \(mbti.name) 입니다.")
+                }
+            }
+        }
+    }
+}
+
+struct People {
+    var name: String
+    var petName: String?
+    var mbti: MBTI?
+}
+
+struct MBTI {
+    let name: String
+}
+```
